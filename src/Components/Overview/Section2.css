@@ -1,0 +1,31 @@
+.section2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f4f3f9;
+}
+.section2 h1{
+    padding-bottom: 30px;
+    color: black;
+}
+.section2 a{
+    text-decoration: none;
+    
+
+}
+.industry-links{
+    
+    padding-bottom: 10px;
+
+}
+.industry-title{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
+.industry-icon{
+    color: #007bff;
+    padding-right: 10px;
+}
+.industry-arrow{
+    float:right ;
+}
