@@ -623,6 +623,7 @@ export default function Navbar() {
 
     </nav>
 
+    {/* code for mobnav */}
   <nav className="myMobNav navbar navbar-expand-dark bg-dark">
   <div className="container-fluid">
     <a className="navbar-brand" href="#">Navbar</a>
