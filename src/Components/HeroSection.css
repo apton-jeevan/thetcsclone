@@ -1,0 +1,98 @@
+.herosection {  
+    background-color: black ;
+    padding-top:24px;
+    padding-bottom:24px;  
+}
+.herosection .myherobutton{
+    background: linear-gradient(102.57deg,#dc0916,#f41fd6 100%,#f41fd6 0);
+    border-radius: 6.25rem;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: .03125rem;
+    padding: 9pt 2pc;
+    /* font-family: Basis-regular; */
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    width:auto;
+    
+}
+.btntext{
+    text-decoration: none;
+    color:white;
+}
+
+.contentOnHover{
+    position: relative;
+}
+
+.contentOnHover .mytext{
+    position: absolute;
+    top: 20%;
+    left:5%;
+}
+.contentOnHover .mytext p{
+    font-size: 24px;
+    line-height: 40px;
+    color:white;
+    margin-bottom: 40px;
+    font-family: Basis-regular;
+}
+.contentOnHover .mytext{
+    display:none
+}
+.contentOnHover:hover .mytext{    
+    display:block;
+}
+.contentOnHover:hover img{    
+    opacity:0.5;
+}
+
+.herosection .heroheading{
+    font-size: 56px;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    /* font-family: Houschka-medium; */
+}
+
+/* nav buttons of owl carousel */
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
+    background: none;
+    color:white !important;
+    border: none;
+    padding: 0 !important;
+    font:40vw;
+}
+
+@media screen and (max-width: 992px) {
+    .herosection .heroheading{
+        font-size:  25px;
+    }
+
+  }
+
+  @media screen and (max-width: 600px) {
+  
+    .contentOnHover .mytext .title{
+        font-size:  18px;
+        line-height: 30px;
+        margin-bottom:7px
+    }
+    .herosection .myherobutton{
+        background: linear-gradient(102.57deg,#dc0916,#f41fd6 100%,#f41fd6 0);
+        border-radius: 6.25rem;
+        font-size: 10px;
+        color: #fff;
+        /* font-family: Basis-regular; */
+        -webkit-transition: all .5s;
+        transition: all .5s;
+        width:auto;
+        
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .contentOnHover .mytext .title{
+        font-size:  14px;
+        line-height: 20px;
+        margin-bottom:7px
+    }
+  }

@@ -1,0 +1,29 @@
+.footer{
+    box-sizing: border-box;
+    height:56.5625rem;
+    background-color:#1e2222;
+    color:rgb(201, 201, 206);
+    font-size: 0.75rem; 
+    padding-top:48px;
+    padding-bottom:48px
+    
+    
+}
+
+.footer li{
+    list-style-type: none;
+    line-height: 1.875rem;
+    font-weight: 400;
+}
+.footer li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+    .footer{
+       display: none;
+    }
+
+  }
+  

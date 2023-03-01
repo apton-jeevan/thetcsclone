@@ -1,0 +1,41 @@
+   .footerbase {
+       width: 100% !important;
+       padding-top: 20px;
+       padding-bottom: 20px;
+       background-color: black;
+       color: white;
+
+   }
+
+   .base-footer-tcs-lnks-ul {
+       display: flex;
+       flex-wrap: wrap;
+       list-style-type: none;
+   }
+
+   .base-footer-tcs-lnks-ul li {
+       margin-right: 1rem;
+   }
+
+   .base-footer-tcs-lnks-ul li a {
+       color: white;
+       text-decoration: white;
+       font-size: .75rem;
+   }
+
+   .footerbase .companyName {
+       font-size: .75rem;
+   }
+
+   .footerbase .socialMedia {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+   }
+
+
+   @media screen and(max-width:600px) {
+       .companyName {
+           padding-top: 10px;
+       }
+   }
