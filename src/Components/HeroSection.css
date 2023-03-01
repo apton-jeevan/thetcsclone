@@ -55,7 +55,7 @@
 }
 
 /* nav buttons of owl carousel */
-.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
+.herosection .owl-carousel .owl-nav button.owl-prev, .herosection .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
     background: none;
     color:white !important;
     border: none;

@@ -2,7 +2,6 @@
 /* why we do */
 .whoweare{
     background-color: white;
-    height:572px;
     background-image: url("https://s7ap1.scene7.com/is/image/TCSCOMprod/who-we-are-story-home?wid=2700&hei=1983&dpr=off");
     background-repeat: no-repeat;
     background-position-x: left;
@@ -13,21 +12,20 @@
 
 .whoweare .content{
     background-color:white;
-    height: 436px;
 }
 .whoweare .outercontent{
     height:572px;
 }
 .whoweare .text{
-    height:436px;
+    background-size: auto;
 }
 .mytextbox .myheading{
     font-weight: 700;
-    font-size:.875rem;
-    line-height:1.5rem;
+    font-size:14px;
+    line-height:24px;
     letter-spacing:.15em;
     color: #747678;
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
     text-transform: uppercase!important;
 }
 
@@ -99,7 +97,7 @@ bottom:30%;
     line-height: 2rem;
     letter-spacing: .03125rem;
     color:white;
-
+    
 }
     .containerpadleft20{
         padding-left: 20px;
@@ -110,7 +108,6 @@ bottom:30%;
 /* what we do */
 .whatwedo{
     background-color: white;
-    height:572px;
     background-image: url("../assets/images/what-we-do-story-home.jpeg");
     background-repeat: no-repeat;
     background-position-x: right;
@@ -141,10 +138,10 @@ bottom:30%;
 
 .mytextbox .myheading1{
 font-family: Houschka-medium;
-font-size: 2.5rem;
-line-height: 2.5rem;
+font-size: 40px;
+line-height: 40px;
 color: #b03c00;
-margin-bottom: 1.5rem;
+margin-bottom: 24px;
 }
 
 .mytextbox .para{
@@ -168,3 +165,60 @@ margin-bottom: 1.5rem;
 }
 
 
+/* nav buttons of owl carousel */
+.homepgAbout .owl-carousel .owl-nav button.owl-prev, .homepgAbout .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
+    background: none;
+    color:black !important;
+    border: none;
+    padding: 0 !important;
+    font:40vw;
+}
+@media screen and (max-width: 1200px) {
+   
+    .whatwedo{
+        padding-bottom:436px;
+    }
+    .whoweare .outercontent, .whatwedo .outercontent{
+        position: relative !important;
+    }
+    .whoweare .content, .whatwedo .content{
+        background-color:white;
+        position:absolute !important;
+        top: 70% !important;
+        z-index: 4 !important;   
+    }
+    .mytcscarousel{
+        background-color:white;
+        padding-top:30vw
+    }
+
+    
+  }@media screen and (max-width: 600px) {
+    .whoweare .outercontent, .whatwedo .outercontent{
+        position: relative !important;
+    }
+    .whoweare .content,.whatwedo .content{
+        background-color:white;
+        position:absolute !important;
+        top: 70% !important;
+        z-index: 4 !important;   
+    }
+    .mytextbox .myheading1{
+        font-family: Houschka-medium;
+        font-size: 35px;
+        line-height: 40px;
+        color: #b03c00;
+        margin-bottom: 24px;
+        }
+        .mytextbox .para{
+            font-family: Basis-regular;
+            font-size: 20px;
+            line-height: 20px;
+            letter-spacing: 0.5px;
+            color: #5e6162;
+            opacity: .9;
+            margin-bottom: 0;
+        
+        }
+    
+  }

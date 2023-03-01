@@ -33,7 +33,9 @@
        justify-content: space-evenly;
    }
 
-
+   @media screen and (max-width: 1200px) {
+   
+   }
    @media screen and(max-width:600px) {
        .companyName {
            padding-top: 10px;

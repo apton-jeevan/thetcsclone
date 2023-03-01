@@ -38,7 +38,8 @@
 .myNavbar .myNavLinkSet li a:hover{
     color: white;
     text-decoration: none;
-}.myNavbar .myNavLinkSet li a:hover .nav-underline{
+}
+.myNavbar .myNavLinkSet li a:hover .nav-underline{
     height: 1px;
     color:red;
     background: linear-gradient(102.57deg, #dc0916, #f41fd6 100%, #f41fd6 0);
@@ -109,6 +110,18 @@
 }
 
 #r0 {
+    flex-direction: column;
+    justify-content: start;
+}
+#s0 {
+    flex-direction: column;
+    justify-content: start;
+}
+#t0 {
+    flex-direction: column;
+    justify-content: start;
+}
+#u0 {
     flex-direction: column;
     justify-content: start;
 }

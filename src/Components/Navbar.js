@@ -212,43 +212,43 @@ export default function Navbar() {
             <div className="rightmega" id="r3">
               <div className="col">
                 <div className="sub">
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-add">TCS ADD</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-add">TCS ADD</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-bancs">TCS BANCS™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-bancs">TCS BANCS™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-bfsi-platforms">TCS BFSI Platforms</a>
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-chroma">TCS CHROMA™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-bfsi-platforms">TCS BFSI Platforms</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-chroma">TCS CHROMA™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-customer-intelligence-insights">TCS Customer Intelligence &amp; Insights™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-customer-intelligence-insights">TCS Customer Intelligence &amp; Insights™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-erp-on-cloud">TCS ERP on Cloud</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-erp-on-cloud">TCS ERP on Cloud</a>
 
                 </div>
               </div>
               <div className="col">
                 <div className="sub">
-                  <a class="l3-li-link" href="https://digitate.com/">ignio™</a>
+                  <a  href="https://digitate.com/">ignio™</a>
 
-                  <a class="l3-li-link" href="https://www.tcsion.com/dotcom/TCSSMB/">TCS iON™</a>
+                  <a  href="https://www.tcsion.com/dotcom/TCSSMB/">TCS iON™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-hobs">TCS HOBS™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-hobs">TCS HOBS™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-intelligent-urban-exchange">TCS Intelligent Urban Exchange™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-intelligent-urban-exchange">TCS Intelligent Urban Exchange™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-omnistore">TCS OmniStore™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-omnistore">TCS OmniStore™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-optumera">TCS Optumera™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-optumera">TCS Optumera™</a>
                 </div>
               </div>
               <div className="col">
                 <div className="sub">
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-tap">TCS TAP™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-tap">TCS TAP™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/quartz">Quartz™ – The Smart Ledgers™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/quartz">Quartz™ – The Smart Ledgers™</a>
 
-                  <a class="l3-li-link" href="https://mastercraft.tcsapps.com/">TCS MasterCraft™</a>
+                  <a  href="https://mastercraft.tcsapps.com/">TCS MasterCraft™</a>
 
-                  <a class="l3-li-link" href="https://www.jile.io/">Jile™</a>
+                  <a  href="https://www.jile.io/">Jile™</a>
 
                 </div>
               </div>
@@ -257,13 +257,13 @@ export default function Navbar() {
             <div className="rightmega" id="r4">
               <div className="col">
                 <div className="sub">
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/research">TCS Research</a>
+                  <a  href="https://www.tcs.com/what-we-do/research">TCS Research</a>
 
                 </div>
               </div>
               <div className="col">
                 <div className="sub">
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/pace-innovation">TCS Pace™</a>
+                  <a  href="https://www.tcs.com/what-we-do/pace-innovation">TCS Pace™</a>
                 </div>
               </div>
 
@@ -360,43 +360,43 @@ export default function Navbar() {
             <div className="rightmega" id="s3">
               <div className="col">
                 <div className="sub">
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-add">TCS ADD</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-add">TCS ADD</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-bancs">TCS BANCS™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-bancs">TCS BANCS™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-bfsi-platforms">TCS BFSI Platforms</a>
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-chroma">TCS CHROMA™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-bfsi-platforms">TCS BFSI Platforms</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-chroma">TCS CHROMA™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-customer-intelligence-insights">TCS Customer Intelligence &amp; Insights™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-customer-intelligence-insights">TCS Customer Intelligence &amp; Insights™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-erp-on-cloud">TCS ERP on Cloud</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-erp-on-cloud">TCS ERP on Cloud</a>
 
                 </div>
               </div>
               <div className="col">
                 <div className="sub">
-                  <a class="l3-li-link" href="https://digitate.com/">ignio™</a>
+                  <a  href="https://digitate.com/">ignio™</a>
 
-                  <a class="l3-li-link" href="https://www.tcsion.com/dotcom/TCSSMB/">TCS iON™</a>
+                  <a  href="https://www.tcsion.com/dotcom/TCSSMB/">TCS iON™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-hobs">TCS HOBS™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-hobs">TCS HOBS™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-intelligent-urban-exchange">TCS Intelligent Urban Exchange™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-intelligent-urban-exchange">TCS Intelligent Urban Exchange™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-omnistore">TCS OmniStore™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-omnistore">TCS OmniStore™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-optumera">TCS Optumera™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-optumera">TCS Optumera™</a>
                 </div>
               </div>
               <div className="col">
                 <div className="sub">
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-tap">TCS TAP™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-tap">TCS TAP™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/quartz">Quartz™ – The Smart Ledgers™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/quartz">Quartz™ – The Smart Ledgers™</a>
 
-                  <a class="l3-li-link" href="https://mastercraft.tcsapps.com/">TCS MasterCraft™</a>
+                  <a  href="https://mastercraft.tcsapps.com/">TCS MasterCraft™</a>
 
-                  <a class="l3-li-link" href="https://www.jile.io/">Jile™</a>
+                  <a  href="https://www.jile.io/">Jile™</a>
 
                 </div>
               </div>
@@ -493,43 +493,43 @@ export default function Navbar() {
             <div className="rightmega" id="t3">
               <div className="col">
                 <div className="sub">
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-add">TCS ADD</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-add">TCS ADD</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-bancs">TCS BANCS™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-bancs">TCS BANCS™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-bfsi-platforms">TCS BFSI Platforms</a>
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-chroma">TCS CHROMA™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-bfsi-platforms">TCS BFSI Platforms</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-chroma">TCS CHROMA™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-customer-intelligence-insights">TCS Customer Intelligence &amp; Insights™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-customer-intelligence-insights">TCS Customer Intelligence &amp; Insights™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-erp-on-cloud">TCS ERP on Cloud</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-erp-on-cloud">TCS ERP on Cloud</a>
 
                 </div>
               </div>
               <div className="col">
                 <div className="sub">
-                  <a class="l3-li-link" href="https://digitate.com/">ignio™</a>
+                  <a  href="https://digitate.com/">ignio™</a>
 
-                  <a class="l3-li-link" href="https://www.tcsion.com/dotcom/TCSSMB/">TCS iON™</a>
+                  <a  href="https://www.tcsion.com/dotcom/TCSSMB/">TCS iON™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-hobs">TCS HOBS™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-hobs">TCS HOBS™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-intelligent-urban-exchange">TCS Intelligent Urban Exchange™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-intelligent-urban-exchange">TCS Intelligent Urban Exchange™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-omnistore">TCS OmniStore™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-omnistore">TCS OmniStore™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-optumera">TCS Optumera™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-optumera">TCS Optumera™</a>
                 </div>
               </div>
               <div className="col">
                 <div className="sub">
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-tap">TCS TAP™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-tap">TCS TAP™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/quartz">Quartz™ – The Smart Ledgers™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/quartz">Quartz™ – The Smart Ledgers™</a>
 
-                  <a class="l3-li-link" href="https://mastercraft.tcsapps.com/">TCS MasterCraft™</a>
+                  <a  href="https://mastercraft.tcsapps.com/">TCS MasterCraft™</a>
 
-                  <a class="l3-li-link" href="https://www.jile.io/">Jile™</a>
+                  <a  href="https://www.jile.io/">Jile™</a>
 
                 </div>
               </div>
@@ -538,13 +538,13 @@ export default function Navbar() {
             <div className="rightmega" id="t4">
               <div className="col">
                 <div className="sub">
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/research">TCS Research</a>
+                  <a  href="https://www.tcs.com/what-we-do/research">TCS Research</a>
 
                 </div>
               </div>
               <div className="col">
                 <div className="sub">
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/pace-innovation">TCS Pace™</a>
+                  <a  href="https://www.tcs.com/what-we-do/pace-innovation">TCS Pace™</a>
                 </div>
               </div>
 
@@ -642,43 +642,43 @@ export default function Navbar() {
             <div className="rightmega" id="u3">
               <div className="col">
                 <div className="sub">
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-add">TCS ADD</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-add">TCS ADD</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-bancs">TCS BANCS™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-bancs">TCS BANCS™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-bfsi-platforms">TCS BFSI Platforms</a>
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-chroma">TCS CHROMA™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-bfsi-platforms">TCS BFSI Platforms</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-chroma">TCS CHROMA™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-customer-intelligence-insights">TCS Customer Intelligence &amp; Insights™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-customer-intelligence-insights">TCS Customer Intelligence &amp; Insights™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-erp-on-cloud">TCS ERP on Cloud</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-erp-on-cloud">TCS ERP on Cloud</a>
 
                 </div>
               </div>
               <div className="col">
                 <div className="sub">
-                  <a class="l3-li-link" href="https://digitate.com/">ignio™</a>
+                  <a  href="https://digitate.com/">ignio™</a>
 
-                  <a class="l3-li-link" href="https://www.tcsion.com/dotcom/TCSSMB/">TCS iON™</a>
+                  <a  href="https://www.tcsion.com/dotcom/TCSSMB/">TCS iON™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-hobs">TCS HOBS™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-hobs">TCS HOBS™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-intelligent-urban-exchange">TCS Intelligent Urban Exchange™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-intelligent-urban-exchange">TCS Intelligent Urban Exchange™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-omnistore">TCS OmniStore™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-omnistore">TCS OmniStore™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-optumera">TCS Optumera™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-optumera">TCS Optumera™</a>
                 </div>
               </div>
               <div className="col">
                 <div className="sub">
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-tap">TCS TAP™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/tcs-tap">TCS TAP™</a>
 
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/quartz">Quartz™ – The Smart Ledgers™</a>
+                  <a  href="https://www.tcs.com/what-we-do/products-platforms/quartz">Quartz™ – The Smart Ledgers™</a>
 
-                  <a class="l3-li-link" href="https://mastercraft.tcsapps.com/">TCS MasterCraft™</a>
+                  <a  href="https://mastercraft.tcsapps.com/">TCS MasterCraft™</a>
 
-                  <a class="l3-li-link" href="https://www.jile.io/">Jile™</a>
+                  <a  href="https://www.jile.io/">Jile™</a>
 
                 </div>
               </div>
@@ -687,13 +687,13 @@ export default function Navbar() {
             <div className="rightmega" id="u4">
               <div className="col">
                 <div className="sub">
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/research">TCS Research</a>
+                  <a  href="https://www.tcs.com/what-we-do/research">TCS Research</a>
 
                 </div>
               </div>
               <div className="col">
                 <div className="sub">
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/pace-innovation">TCS Pace™</a>
+                  <a  href="https://www.tcs.com/what-we-do/pace-innovation">TCS Pace™</a>
                 </div>
               </div>
 

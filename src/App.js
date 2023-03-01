@@ -9,7 +9,7 @@ import Snapshot from "./Components/Snapshot";
 function App() {
   return (
     <>
-    <Navbar/> 
+    {/* <Navbar/>  */}
     <HeroSection/>
    <Snapshot/>
     <Discovertcsdiff/>  

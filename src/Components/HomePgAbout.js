@@ -5,14 +5,26 @@ import MyOwlCarousel from './MyOwlCarousel/MyOwlCarousel'
 
 
 export default function HomePgAbout() {
+  function myFunction(x) {
+    if (x.matches) { // If media query matches
+      document.body.style.backgroundColor = "yellow";
+    } else {
+      document.body.style.backgroundColor = "pink";
+    }
+  }
+  
+  var x = window.matchMedia("(max-width: 700px)")
+  myFunction(x) // Call listener function at run time
+  x.addListener(myFunction) // Attach listener function on state changes
+
 
   return (
-    <div>
+    <div className="homepgAbout">
 
- {/* who we are */}
- <div className="whoweare  container1">
+      {/* who we are */}
+      <div className="whoweare  container1">
         <div className="row align-items-center justify-content-end outercontent">
-          <div className="content col-xl-6">
+          <div className="content col-sm-12 col-md-9 col-xl-6">
             <div className="text row align-items-center ">
               <div className="mytextbox">
                 <p className="myheading">Who We Are</p>
@@ -37,8 +49,8 @@ export default function HomePgAbout() {
         <div className="container1 carousel_outer ">
           <h2 className="heading">Belief in action</h2>
 
-          <MyOwlCarousel dots={false} margin={15} items={3} nav={true}/>
-          
+          <MyOwlCarousel dots={false} margin={15} items={3} nav={true} />
+
         </div>
       </div>
 
@@ -46,7 +58,7 @@ export default function HomePgAbout() {
       {/* what/why we do */}
       <div className="whatwedo container1">
         <div className="row align-items-center justify-content-start outercontent">
-          <div className="content col-xl-6">
+          <div className="content col-sm-12 col-md-9 col-xl-6">
             <div className="text row align-items-center ">
               <div className="mytextbox">
                 <p className="myheading">What we do</p>
