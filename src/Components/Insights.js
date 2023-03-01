@@ -16,7 +16,7 @@ export default function Insights() {
   })
 
   return (
-    <section>
+    <section className='myInsight'>
       <div className='container1'>
         <div className='insightsTitle'>
           <h1>Insights by interest</h1>

@@ -3,6 +3,8 @@ import "./Navbar.css"
 import { useEffect } from 'react';
 
 export default function Navbar() {
+
+  
   useEffect(() => {
     //for changing all rightmega to none except the first one
     
@@ -604,6 +606,7 @@ export default function Navbar() {
           <span className="nav-underline"></span>
         </li>
       </ul>
+   
     </nav>
   )
 }

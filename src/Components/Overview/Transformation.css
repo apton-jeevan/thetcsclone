@@ -1,6 +1,7 @@
 .transformation {
-    background-color: black;
+    background-color: #1e2222;
     color: white;
+    border-bottom: 1px solid rgb(98, 98, 98);
 }
 
 .side-img {

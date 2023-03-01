@@ -9,7 +9,14 @@
 .insightCard a,
 a,
 body , .insightCard h1{
-  color: #fff;
+  font-family: "Houschka Pro Medium", sans-serif;
+  color:white;
+}
+a{
+  color:white !important;
+}
+.myInsight{
+  background-color:black;
 }
 
 .insightCard,
@@ -18,15 +25,11 @@ body , .insightCard h1{
   height: 440px;
 }
 
-body {
-  font-family: "Houschka Pro Medium", sans-serif;
-  background: #000;
-}
 
 .container1 {
   padding-left: 8vw;
   padding-right: 8vw;
-  margin-top: 2rem;
+  padding-top: 2rem;
 }
 
 .container1 .insightsTitle {
