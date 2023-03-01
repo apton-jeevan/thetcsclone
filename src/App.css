@@ -3,3 +3,188 @@
     padding-left:6vw;
     padding-right:6vw;
 }
+@import url(//db.onlinewebfonts.com/c/225646b777438f81ec8400ff378afe2d?family=Houschka+Pro+Medium);
+
+.container1,
+.insightCard a,
+a,
+body , .insightCard h1{
+  color: #fff;
+}
+
+.insightCard,
+.insightCard img {
+  width: 512px;
+  height: 440px;
+}
+
+body {
+  font-family: "Houschka Pro Medium", sans-serif;
+  background: #000;
+}
+
+.container1 {
+  padding-left: 8vw;
+  padding-right: 8vw;
+  margin-top: 2rem;
+}
+
+.container1 .insightsTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container1 .insightsTitle h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.container1 .insightsTitle a {
+  border-bottom: 1px solid #fff;
+  cursor: pointer;
+  height: 1.5625rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.insightCardsContainer {
+  display: flex;
+  justify-content: space-between;
+  overflow: auto;
+}
+
+.insightCard {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+}
+
+.insightCard h1 {
+  position: absolute;
+  font-size: 24px;
+  padding-left: 12px;
+  margin: 0;
+  bottom: 40px;
+}
+
+.insightCard .topBtn {
+  position: absolute;
+  width: auto;
+  height: 35px;
+  background: #fff;
+  color: #000;
+  border-radius: 50px;
+  padding: 5px;
+  margin: 12px 0 0 12px;
+}
+
+.insightCard .hover-read {
+  position: absolute;
+  padding-left: 12px;
+  margin: 0;
+  bottom: 15px;
+  color: #b60e51;
+  font-size: 14px;
+  display: none;
+}
+
+.insightCard:hover .hover-read {
+  display: block;
+}
+
+/* Mobile Devices */
+@media (max-width: 576px) {
+  .container1 .insightsTitle h1 {
+    width: 176px;
+  }
+  /* Belief card */
+  .beliefCardsContainer{
+    gap: 12px;
+  }
+
+
+
+
+  .insightCard,
+  .insightCard img {
+    width: 343px;
+    height: 440px;
+  }
+
+  .hover-read {
+    display: block;
+  }
+
+  .insightCardsContainer {
+    gap: 12px;
+  }
+}
+
+/* Tablets and Other Devices */
+@media (max-width: 992px) {
+  .insightCardsContainer {
+    gap: 12px;
+  }
+  /* Belief card */
+  .beliefCardsContainer{
+    gap: 12px;
+  }
+
+
+
+}
+
+@media (max-width: 1800px) {
+  .insightCardsContainer {
+    gap: 12px;
+  }
+  /* Belief card */
+  .beliefCardsContainer{
+    gap: 12px;
+  }
+
+
+
+}
+
+/* Belief Section */
+
+.beliefCardsContainer{
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    height: auto;
+    margin-top: 12px;
+  }
+  
+  .beliefCard{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    width: 377.5px;
+    /* height: 396px; */
+    gap: 12px;
+  }
+  
+  .beliefCard img{
+    height: 280px !important;
+    object-fit: cover;
+  }
+  
+  .beliefCard img:hover{
+    transform: scale(1.02); 
+  }
+  
+  .beliefCard h1{
+    color: #000;
+    font-size: 24px;
+  }
+  
+  .beliefCard p{
+    font-size: 16px;
+    color: rgb(73, 76, 77);
+  }
