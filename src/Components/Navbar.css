@@ -81,6 +81,9 @@
     border-bottom: 1px solid #494c4d;
     width: 316.25px;
 }
+.leftmega header a{
+    text-decoration: none !important;
+}
 
 .leftmega header i {
     visibility: hidden;
