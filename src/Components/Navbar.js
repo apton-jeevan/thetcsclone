@@ -445,28 +445,34 @@ export default function Navbar() {
             <div className="rightmega rightmega_3" id="u2">
               <div className="col">
                 <div className="sub">
-                  <a href="https://www.tcs.com/what-we-do/services/cloud">Cloud</a>
-                  <a href="https://www.tcs.com/what-we-do/services/cognitive-business-operations">Cognitive Business Operations</a>
-                  <a href="https://www.tcs.com/what-we-do/services/consulting">Consulting</a>
+                <a class="l3-li-link" href="https://www.tcs.com/careers/argentina">Argentina</a>
+                    
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/brazil">Brazil</a>
+                  
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/canada">Canada</a>
+                  
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/chile">Chile</a>
 
                 </div>
               </div>
               <div className="col">
                 <div className="sub">
-                  <a href="https://www.tcs.com/what-we-do/services/cybersecurity">Cybersecurity</a>
-
-                  <a href="https://www.tcs.com/what-we-do/services/data-and-analytics">Data and Analytics</a>
-
-                  <a href="https://www.tcs.com/what-we-do/services/enterprise-solutions">Enterprise Solutions</a>
+                <a class="l3-li-link" href="https://www.tcs.com/careers/colombia">Colombia</a>
+                    
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/ecuador">Ecuador</a>
+                  
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/mexico">Mexico</a>
+                  
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/peru">Peru</a>
                 </div>
               </div>
               <div className="col">
                 <div className="sub">
-                  <a href="https://www.tcs.com/what-we-do/services/iot-digital-engineering">IoT and Digital Engineering</a>
-
-                  <a href="https://www.tcs.com/what-we-do/services/tcs-interactive">TCS Interactive</a>
-
-                  <a href="https://www.tcs.com/what-we-do/services/sustainability-services">Sustainability Services</a>
+                  
+                <a class="l3-li-link" href="https://www.tcs.com/careers/uruguay">Uruguay</a>
+                    
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/united-states">USA</a>
+                  
                 </div>
               </div>
 
@@ -474,43 +480,36 @@ export default function Navbar() {
             <div className="rightmega rightmega_3" id="u3">
               <div className="col">
                 <div className="sub">
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-add">TCS ADD</a>
-
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-bancs">TCS BANCS™</a>
-
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-bfsi-platforms">TCS BFSI Platforms</a>
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-chroma">TCS CHROMA™</a>
-
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-customer-intelligence-insights">TCS Customer Intelligence &amp; Insights™</a>
-
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-erp-on-cloud">TCS ERP on Cloud</a>
+                <a class="l3-li-link" href="https://www.tcs.com/careers/australia">Australia</a>
+                    
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/china">China</a>
+                  
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/hongkong">Hong Kong</a>
+                  
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/indonesia">Indonesia</a>
 
                 </div>
               </div>
               <div className="col">
                 <div className="sub">
-                  <a class="l3-li-link" href="https://digitate.com/">ignio™</a>
-
-                  <a class="l3-li-link" href="https://www.tcsion.com/dotcom/TCSSMB/">TCS iON™</a>
-
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-hobs">TCS HOBS™</a>
-
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-intelligent-urban-exchange">TCS Intelligent Urban Exchange™</a>
-
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-omnistore">TCS OmniStore™</a>
-
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-optumera">TCS Optumera™</a>
+                <a class="l3-li-link" href="https://www.tcs.com/careers/japan">Japan</a>
+                    
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/malaysia">Malaysia</a>
+                  
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/newzealand">New Zealand</a>
+                  
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/philippines">Philippines</a>
                 </div>
               </div>
               <div className="col">
                 <div className="sub">
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-tap">TCS TAP™</a>
-
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/quartz">Quartz™ – The Smart Ledgers™</a>
-
-                  <a class="l3-li-link" href="https://mastercraft.tcsapps.com/">TCS MasterCraft™</a>
-
-                  <a class="l3-li-link" href="https://www.jile.io/">Jile™</a>
+                <a class="l3-li-link" href="https://www.tcs.com/careers/republic-of-korea">Republic of Korea</a>
+                    
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/singapore">Singapore</a>
+                  
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/taiwan">Taiwan</a>
+                  
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/thailand">Thailand</a>
 
                 </div>
               </div>
@@ -519,29 +518,74 @@ export default function Navbar() {
             <div className="rightmega rightmega_3" id="u4">
               <div className="col">
                 <div className="sub">
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/research">TCS Research</a>
+                  
+                <a class="l3-li-link" href="https://www.tcs.com/careers/denmark">Denmark</a>
+                    
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/estonia">Estonia</a>
+                  
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/finland">Finland</a>
+                  
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/france">France</a>
+                  
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/germany">Germany</a>
 
                 </div>
               </div>
               <div className="col">
                 <div className="sub">
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/pace-innovation">TCS Pace™</a>
+                <a class="l3-li-link" href="https://www.tcs.com/careers/hungary">Hungary</a>
+                    
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/ireland">Ireland</a>
+                  
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/italy">Italy</a>
+                  
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/luxembourg">Luxembourg</a>
+                  
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/netherlands">Netherlands</a>
+                  
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/norway">Norway</a>
+                </div>
+              </div><div className="col">
+                <div className="sub">
+                <a class="l3-li-link" href="https://www.tcs.com/careers/poland">Poland</a>
+                    
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/portugal">Portugal</a>
+                  
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/spain">Spain</a>
+                  
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/sweden">Sweden</a>
+                  
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/switzerland">Switzerland</a>
+                  
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/united-kingdom">United Kingdom</a>
                 </div>
               </div>
-
 
 
             </div>
    <div className="rightmega rightmega_3" id="u5">
               <div className="col">
                 <div className="sub">
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/research">TCS Research</a>
+                <a class="l3-li-link" href="https://www.tcs.com/careers/bahrain">Bahrain</a>
+                    
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/israel">Israel</a>
+                   
+                    <a class="l3-li-link" href="https://www.tcs.com/careers/kuwait">Kuwait</a>
 
                 </div>
               </div>
               <div className="col">
                 <div className="sub">
-                  <a class="l3-li-link" href="https://www.tcs.com/what-we-do/pace-innovation">TCS Pace™</a>
+                <a class="l3-li-link" href="https://www.tcs.com/careers/qatar">Qatar</a>
+                    
+                     <a class="l3-li-link" href="https://www.tcs.com/careers/saudi-arabia">Saudi Arabia</a>
+                    
+                     <a class="l3-li-link" href="https://www.tcs.com/careers/south-africa">South Africa</a>
+                </div>
+              </div>
+               <div className="col">
+                <div className="sub">
+                <a class="l3-li-link" href="https://www.tcs.com/careers/united-arab-emirates">United Arab Emirates</a>
                 </div>
               </div>
 
