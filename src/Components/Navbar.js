@@ -672,7 +672,8 @@ Copy code
                   <div id="link1" className="collapse show">
                    
                     <li className="nav-item inner-nav-item">
-                      <a className="nav-link" href="#link1a" data-bs-toggle="collapse">Overview</a>
+                      <Link to="/overview" >Overview
+                  </Link>
                       <div id="link1a" className="collapse">
                         <p className="innernav-content">Link content goes here.</p>
                        

@@ -42,7 +42,7 @@ export default function HomePgAbout() {
                 <div className="para"><p>TCS is an IT services, consulting and business solutions organization that has been partnering with many of the world's largest businesses in their transformation journeys for over 50 years. </p>
                   <p></p></div>
                 <div>
-                  <a className="gettoknow" href="https://www.tcs.com/what-we-do">Get to know us</a>
+                  <a className="gettoknow" href="https://www.tcs.com/what-we-do">Get to know us <i class="fa-solid fa-circle-arrow-right"></i></a>
                 </div>
               </div>
             </div>
@@ -76,7 +76,7 @@ export default function HomePgAbout() {
                 <div className="para"><p>We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise.</p>
                   <p></p></div>
                 <div>
-                  <a className="gettoknow" href="https://www.tcs.com/what-we-do">Get to know us</a>
+                  <a className="gettoknow" href="https://www.tcs.com/what-we-do">Get to know us <i class="fa-solid fa-circle-arrow-right"></i> </a>
                 </div>
               </div>
             </div>
