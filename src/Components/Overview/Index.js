@@ -1,6 +1,6 @@
 import React from 'react'
 import Belief from './Belief'
-import MyAccordian from './MyAccordian'
+import MyAccordianSet from './MyAccordianSet'
 import Section1 from './Section1'
 import Section2 from './Section2'
 import Services from './Services'
@@ -14,7 +14,7 @@ export default function index() {
       <Services />
       <Belief />
       <Transformation />
-      <MyAccordian/>
+      <MyAccordianSet/>
     </>
   )
 }

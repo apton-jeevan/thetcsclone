@@ -1,0 +1,20 @@
+.myAccordianHeading{
+font-family: "Basis Grotesque Pro";
+font-size: .875rem;
+line-height: 1.5rem;
+color: #000;
+text-transform: uppercase;
+letter-spacing: .15em;
+text-align: left;
+font-weight: 400;
+}
+.myAccordianTitle{
+    font-family: "Houschka Pro Medium";
+    font-size: 3rem;
+    line-height: 3rem;
+    color: #000;
+    text-align: left;
+    font-weight: 400;
+    border-left:4px solid #e41165;
+    padding-left: 2rem;
+}

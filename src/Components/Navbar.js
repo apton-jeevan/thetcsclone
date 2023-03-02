@@ -668,6 +668,8 @@ Copy code
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li className="nav-item outer-nav-item">
+                  {/* href and id should match. */}
+                  {/* also i think className has no effect even if we remove them our accordian will work */}
                   <a className="nav-link active" aria-current="page" href="#link1" data-bs-toggle="collapse">What We Do</a>
                   <div id="link1" className="collapse show">
 
