@@ -680,11 +680,11 @@ Copy code
                     <li className="nav-item inner-nav-item">
                       <a className="nav-link" href="#link1b" data-bs-toggle="collapse">Industries</a>
                       <div id="link1b" className="collapse">
+                        <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/banking">Banking</a>
                         <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/capital-markets">Capital Markets</a>
                         <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/consumer-goods-distribution">Consumer Goods and Distribution</a>
                         <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/communications-media-information-services">Communications, Media, and Information Services</a>
                         <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/education">Education</a>
-                        <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/banking">Banking</a>
                         <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/energy-resources-utilities">Energy, Resources, and Utilities</a>
                         <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/healthcare">Healthcare</a>
                         <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/high-tech">High Tech</a>

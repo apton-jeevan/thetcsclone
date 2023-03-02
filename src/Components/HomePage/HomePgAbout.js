@@ -7,7 +7,7 @@ import MyOwlCarousel from './MyOwlCarousel/MyOwlCarousel'
 export default function HomePgAbout() {
   const [isScreen, setIsScreen] = useState(3);
 
-  //equivalent to media queries
+  //equivalent to media queries this is qrittern for .mytcscarousel
   useEffect(() => {
     function handleResize() {
       if (window.innerWidth > 1601) {
