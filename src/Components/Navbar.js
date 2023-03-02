@@ -652,16 +652,16 @@ Copy code
     transform: translateX(-100%);
 } */}
 
-      <nav className="myMobNav navbar navbar-dark bg-dark fixed-top">
+      <nav className="myMobNav navbar navbar-dark bg-dark sticky-top">
         <div className="container-fluid">
-        <Link to="/" ><img className="brand-logo-img" src="https://www.tcs.com/content/dam/global-tcs/en/images/home/dark-theme.svg" alt="Tata Consultancy Services" title="Tata Consultancy Services" /></Link>
+          <Link to="/" ><img className="brand-logo-img" src="https://www.tcs.com/content/dam/global-tcs/en/images/home/dark-theme.svg" alt="Tata Consultancy Services" title="Tata Consultancy Services" /></Link>
 
           <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="offcanvas offcanvas-start text-bg-dark" tabIndex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
             <div className="offcanvas-header">
-            <Link to="/" ><img className="brand-logo-img" src="https://www.tcs.com/content/dam/global-tcs/en/images/home/dark-theme.svg" alt="Tata Consultancy Services" title="Tata Consultancy Services" /></Link>
+              <Link to="/" ><img className="brand-logo-img" src="https://www.tcs.com/content/dam/global-tcs/en/images/home/dark-theme.svg" alt="Tata Consultancy Services" title="Tata Consultancy Services" /></Link>
 
               <button type="button" className="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
@@ -670,46 +670,46 @@ Copy code
                 <li className="nav-item outer-nav-item">
                   <a className="nav-link active" aria-current="page" href="#link1" data-bs-toggle="collapse">What We Do</a>
                   <div id="link1" className="collapse show">
-                   
+
                     <li className="nav-item inner-nav-item">
-                      <Link to="/overview" >Overview</Link>
+                      <Link to="/overview" className="outernav-content">Overview</Link>
                       <div id="link1a" className="collapse">
-                        <p className="innernav-content">Link content goes here.</p>
+                        {/* <p className="innernav-content">Link content goes here.</p> */}
                       </div>
                     </li>
                     <li className="nav-item inner-nav-item">
                       <a className="nav-link" href="#link1b" data-bs-toggle="collapse">Industries</a>
                       <div id="link1b" className="collapse">
-                        <p className="innernav-content">Banking</p>
-                        <p className="innernav-content">Capital Markets</p>
-                        <p className="innernav-content">Consumer Goods and Distribution</p>
-                        <p className="innernav-content">Communications, Media, and Information Services</p>
-                        <p className="innernav-content">Education</p>
-                        <p className="innernav-content">Energy, Resources, and Utilities</p>
-                        <p className="innernav-content">Healthcare</p>
-                        <p className="innernav-content">High Tech</p>
-                        <p className="innernav-content">Insurance</p>
-                        <p className="innernav-content">Life Sciences</p>
-                        <p className="innernav-content">Manufacturing</p>
-                        <p className="innernav-content">Public Services</p>
-                        <p className="innernav-content">Retail</p>
-                        <p className="innernav-content">Travel and Logistics</p>
+                        <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/capital-markets">Capital Markets</a>
+                        <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/consumer-goods-distribution">Consumer Goods and Distribution</a>
+                        <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/communications-media-information-services">Communications, Media, and Information Services</a>
+                        <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/education">Education</a>
+                        <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/banking">Banking</a>
+                        <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/energy-resources-utilities">Energy, Resources, and Utilities</a>
+                        <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/healthcare">Healthcare</a>
+                        <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/high-tech">High Tech</a>
+                        <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/insurance">Insurance</a>
+                        <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/life-sciences"></a>
+                        <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/manufacturing">Manufacturing</a>
+                        <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/public-services">Public Services</a>
+                        <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/retail">Retail </a>
+                        <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/travel-and-logistics">Travel and Logistics</a>
                       </div>
                     </li>
                     <li className="nav-item inner-nav-item">
                       <a className="nav-link" href="#link1c" data-bs-toggle="collapse">Services</a>
                       <div id="link1c" className="collapse">
-                        <p className="innernav-content">Cloud</p>
-                        <p className="innernav-content">Cognitive Business Operations</p>
-                        <p className="innernav-content">Consulting</p>
-                        <p className="innernav-content">Cybersecurity</p>
-                        <p className="innernav-content">Data and Analytics</p>
-                        <p className="innernav-content">Enterprise Solutions</p>
-                        <p className="innernav-content">IoT and Digital Engineering</p>
-                        <p className="innernav-content">TCS Interactive</p>
-                        <p className="innernav-content">Sustainability Services</p>
+                        <a  className="innernav-content" href="https://www.tcs.com/what-we-do/services/cloud">Cloud</a>
+                        <a  className="innernav-content" href="https://www.tcs.com/what-we-do/services/cognitive-business-operations">Cognitive Business Operations</a>
+                        <a  className="innernav-content" href="https://www.tcs.com/what-we-do/services/consulting">Consulting</a>
+                        <a  className="innernav-content" href="https://www.tcs.com/what-we-do/services/cybersecurity">Cybersecurity</a>
+                        <a  className="innernav-content" href="https://www.tcs.com/what-we-do/services/data-and-analytics">Data and Analytics</a>
+                        <a  className="innernav-content" href="https://www.tcs.com/what-we-do/services/enterprise-solutions">Enterprise Solutions</a>
+                        <a  className="innernav-content" href="https://www.tcs.com/what-we-do/services/iot-digital-engineering">IoT and Digital Engineering</a>
+                        <a  className="innernav-content" href="https://www.tcs.com/what-we-do/services/tcs-interactive">TCS Interactive</a>
+                        <a  className="innernav-content" href="https://www.tcs.com/what-we-do/services/sustainability-services">Sustainability Services</a>
                       </div>
-                    </li> 
+                    </li>
                     <li className="nav-item inner-nav-item">
                       <a className="nav-link" href="#link1d" data-bs-toggle="collapse">Products and Platforms </a>
                       <div id="link1d" className="collapse">
