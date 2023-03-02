@@ -101,13 +101,20 @@ padding-left: 20px;
 }
 
 .leftmega header a {
+
+    display: block;
     text-decoration: none !important;
+    width: 100%!important;
 }
 
+
 .leftmega header i {
+    
     visibility: hidden;
     position: absolute;
     right: 0;
+    bottom:15px;
+    text-align: center;
     color: white;
 }
 
