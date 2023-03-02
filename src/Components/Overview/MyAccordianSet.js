@@ -15,11 +15,15 @@ export default function MyAccordianSet() {
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-heading1">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
-                                Accordion Item #1
+                                <span className="accordionItemCount">01.</span>
+                                <span className="accordionItemTitle ">TCS ADD™</span>
+
                             </button>
                         </h2>
                         <div id="flush-collapse1" class="accordion-collapse collapse" aria-labelledby="flush-heading1" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                            <div class="accordion-body myAccBody">
+                           <img className="col-4"src="https://www.tcs.com/content/dam/global-tcs/en/images/what-we-do/industries/healthcare/article/doc.png/jcr:content/renditions/cq5dam.thumbnail.1280.765.png" alt='accordian item image'/>
+                            </div>
                         </div>
                     </div>
                     <div class="accordion-item">
