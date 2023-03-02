@@ -1,5 +1,1 @@
-TCS Research
-TCS Pace™
-
-
-
+<img class="img-fluid" src="/content/dam/global-tcs/en/images/discover-tcs/TCS%20logo.svg" alt="Tata consultancy services"></img>

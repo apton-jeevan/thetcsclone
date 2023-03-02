@@ -1,14 +1,13 @@
 import React from 'react'
 import './FooterBase.css'
 import "../App.css"
-import tcslogo from "../assets/images/tcslogo.svg"
 export default function FooterBase() {
   return (
     <div className='footerbase'>
       <div className="container1">
         <div className="row align-items-center  g-4">
           <div className="col-sm-4 col-md-6 col-xl-2 ">
-            <img src={tcslogo} alt="tcs image logo" />
+            <img src="https://www.tcs.com/content/dam/global-tcs/en/images/discover-tcs/TCS%20logo.svg" alt="tcs image logo" />
           </div>
           <div className="col-sm-8 col-md-6 col-xl-4"> 
             <ul className="base-footer-tcs-lnks-ul">

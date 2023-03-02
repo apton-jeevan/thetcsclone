@@ -672,12 +672,9 @@ Copy code
                   <div id="link1" className="collapse show">
                    
                     <li className="nav-item inner-nav-item">
-                      <Link to="/overview" >Overview
-                  </Link>
+                      <Link to="/overview" >Overview</Link>
                       <div id="link1a" className="collapse">
                         <p className="innernav-content">Link content goes here.</p>
-                       
-                        
                       </div>
                     </li>
                     <li className="nav-item inner-nav-item">

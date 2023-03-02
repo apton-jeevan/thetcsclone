@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Discovertcsdiff.css"
-import "../App.css"
+import "../../App.css"
 import { data } from "./Discovertcsdata"
 
 import OwlCarousel from 'react-owl-carousel';

@@ -1,25 +1,26 @@
 import React, { useEffect, useState } from 'react'
 import "./HomePgAbout.css"
-import "../App.css"
+import "../../App.css"
 import MyOwlCarousel from './MyOwlCarousel/MyOwlCarousel'
 
 
 export default function HomePgAbout() {
   const [isScreen, setIsScreen] = useState(3);
 
+  //equivalent to media queries
   useEffect(() => {
     function handleResize() {
-      if(window.innerWidth > 1601){
+      if (window.innerWidth > 1601) {
         setIsScreen(3);
       }
-      if(window.innerWidth < 992){
+      if (window.innerWidth < 992) {
         setIsScreen(1);
       }
-      else if(window.innerWidth < 1600){
+      else if (window.innerWidth < 1600) {
         setIsScreen(2);
       }
-      
-      
+
+
     }
 
     window.addEventListener('resize', handleResize);
@@ -28,11 +29,12 @@ export default function HomePgAbout() {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
+
   return (
     <div>
 
- {/* who we are */}
- <div className="whoweare  container1">
+      {/* who we are */}
+      <div className="whoweare  container1">
         <div className="row align-items-center justify-content-end outercontent">
           <div className="content col-xl-6">
             <div className="text row align-items-center ">
@@ -59,8 +61,8 @@ export default function HomePgAbout() {
         <div className="container1 carousel_outer ">
           <h2 className="heading">Belief in action</h2>
 
-          <MyOwlCarousel dots={false} margin={15} items={isScreen} nav={true}/>
-          
+          <MyOwlCarousel dots={false} margin={15} items={isScreen} nav={true} />
+
         </div>
       </div>
 

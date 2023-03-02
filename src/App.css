@@ -9,7 +9,7 @@
 .container1,
 .insightCard a,
 a,
-body , .insightCard h1{
+ .insightCard h1{
   font-family: "Houschka Pro Medium", sans-serif;
   color:white;
 }
@@ -105,13 +105,6 @@ a{
   .container1 .insightsTitle h1 {
     width: 176px;
   }
-  /* Belief card */
-  .beliefCardsContainer{
-    gap: 12px;
-  }
-
-
-
 
   .insightCard,
   .insightCard img {
