@@ -701,43 +701,43 @@ Copy code
                     <li className="nav-item inner-nav-item">
                       <a className="nav-link" href="#link1c" data-bs-toggle="collapse">Services</a>
                       <div id="link1c" className="collapse">
-                        <p>Cloud</p>
-                        <p>Cognitive Business Operations</p>
-                        <p>Consulting</p>
-                        <p>Cybersecurity</p>
-                        <p>Data and Analytics</p>
-                        <p>Enterprise Solutions</p>
-                        <p>IoT and Digital Engineering</p>
-                        <p>TCS Interactive</p>
-                        <p>Sustainability Services</p>
+                        <p className="innernav-content">Cloud</p>
+                        <p className="innernav-content">Cognitive Business Operations</p>
+                        <p className="innernav-content">Consulting</p>
+                        <p className="innernav-content">Cybersecurity</p>
+                        <p className="innernav-content">Data and Analytics</p>
+                        <p className="innernav-content">Enterprise Solutions</p>
+                        <p className="innernav-content">IoT and Digital Engineering</p>
+                        <p className="innernav-content">TCS Interactive</p>
+                        <p className="innernav-content">Sustainability Services</p>
                       </div>
                     </li> 
                     <li className="nav-item inner-nav-item">
                       <a className="nav-link" href="#link1d" data-bs-toggle="collapse">Products and Platforms </a>
                       <div id="link1d" className="collapse">
-                        <p>TCS ADD</p>
-                        <p>TCS BANCS™</p>
-                        <p>TCS BFSI Platforms</p>
-                        <p>TCS CHROMA™</p>
-                        <p>TCS Customer Intelligence & Insights™</p>
-                        <p>TCS ERP on Cloud</p>
-                        <p>ignio™</p>
-                        <p>TCS iON™</p>
-                        <p>TCS HOBS™</p>
-                        <p>TCS Intelligent Urban Exchange™</p>
-                        <p>TCS OmniStore™</p>
-                        <p>TCS Optumera™</p>
-                        <p>TCS TAP™</p>
-                        <p>Quartz™ – The Smart Ledgers™</p>
-                        <p>TCS MasterCraft™</p>
-                        <p>Jile™</p>
+                        <p className="innernav-content">TCS ADD</p>
+                        <p className="innernav-content">TCS BANCS™</p>
+                        <p className="innernav-content">TCS BFSI Platforms</p>
+                        <p className="innernav-content">TCS CHROMA™</p>
+                        <p className="innernav-content">TCS Customer Intelligence & Insights™</p>
+                        <p className="innernav-content">TCS ERP on Cloud</p>
+                        <p className="innernav-content">ignio™</p>
+                        <p className="innernav-content">TCS iON™</p>
+                        <p className="innernav-content">TCS HOBS™</p>
+                        <p className="innernav-content">TCS Intelligent Urban Exchange™</p>
+                        <p className="innernav-content">TCS OmniStore™</p>
+                        <p className="innernav-content">TCS Optumera™</p>
+                        <p className="innernav-content">TCS TAP™</p>
+                        <p className="innernav-content">Quartz™ – The Smart Ledgers™</p>
+                        <p className="innernav-content">TCS MasterCraft™</p>
+                        <p className="innernav-content">Jile™</p>
                       </div>
                     </li>
                     <li className="nav-item inner-nav-item">
                       <a className="nav-link" href="#link1e" data-bs-toggle="collapse">Research & Innovation </a>
                       <div id="link1e" className="collapse">
-                        <p>TCS Research</p>
-                        <p>TCS Pace™</p>
+                        <p className="innernav-content">TCS Research</p>
+                        <p className="innernav-content">TCS Pace™</p>
                       </div>
                     </li>
                   </div>
