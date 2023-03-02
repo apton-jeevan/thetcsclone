@@ -136,7 +136,7 @@ export default function Navbar() {
           <ul className="myNavLinkSet">
             <div className="megamenu">
               <li className="arrowup">
-                <a class="nav-link" href="https://www.tcs.com/what-we-do">What we do</a>
+                <a className="nav-link" href="https://www.tcs.com/what-we-do">What we do</a>
                 {/* <span><i className="fa-solid fa-caret-up"></i></span> */}
               </li>
               <div className="megacontent" id="mega_1">
@@ -228,43 +228,43 @@ export default function Navbar() {
                 <div className="rightmega" id="r3">
                   <div className="col">
                     <div className="sub">
-                      <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-add">TCS ADD</a>
+                      <a href="https://www.tcs.com/what-we-do/products-platforms/tcs-add">TCS ADD</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-bancs">TCS BANCS™</a>
+                      <a href="https://www.tcs.com/what-we-do/products-platforms/tcs-bancs">TCS BANCS™</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-bfsi-platforms">TCS BFSI Platforms</a>
-                      <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-chroma">TCS CHROMA™</a>
+                      <a href="https://www.tcs.com/what-we-do/products-platforms/tcs-bfsi-platforms">TCS BFSI Platforms</a>
+                      <a href="https://www.tcs.com/what-we-do/products-platforms/tcs-chroma">TCS CHROMA™</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-customer-intelligence-insights">TCS Customer Intelligence &amp; Insights™</a>
+                      <a href="https://www.tcs.com/what-we-do/products-platforms/tcs-customer-intelligence-insights">TCS Customer Intelligence &amp; Insights™</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-erp-on-cloud">TCS ERP on Cloud</a>
+                      <a href="https://www.tcs.com/what-we-do/products-platforms/tcs-erp-on-cloud">TCS ERP on Cloud</a>
 
                     </div>
                   </div>
                   <div className="col">
                     <div className="sub">
-                      <a class="l3-li-link" href="https://digitate.com/">ignio™</a>
+                      <a href="https://digitate.com/">ignio™</a>
 
-                      <a class="l3-li-link" href="https://www.tcsion.com/dotcom/TCSSMB/">TCS iON™</a>
+                      <a href="https://www.tcsion.com/dotcom/TCSSMB/">TCS iON™</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-hobs">TCS HOBS™</a>
+                      <a href="https://www.tcs.com/what-we-do/products-platforms/tcs-hobs">TCS HOBS™</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-intelligent-urban-exchange">TCS Intelligent Urban Exchange™</a>
+                      <a href="https://www.tcs.com/what-we-do/products-platforms/tcs-intelligent-urban-exchange">TCS Intelligent Urban Exchange™</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-omnistore">TCS OmniStore™</a>
+                      <a href="https://www.tcs.com/what-we-do/products-platforms/tcs-omnistore">TCS OmniStore™</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-optumera">TCS Optumera™</a>
+                      <a href="https://www.tcs.com/what-we-do/products-platforms/tcs-optumera">TCS Optumera™</a>
                     </div>
                   </div>
                   <div className="col">
                     <div className="sub">
-                      <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/tcs-tap">TCS TAP™</a>
+                      <a href="https://www.tcs.com/what-we-do/products-platforms/tcs-tap">TCS TAP™</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/what-we-do/products-platforms/quartz">Quartz™ – The Smart Ledgers™</a>
+                      <a href="https://www.tcs.com/what-we-do/products-platforms/quartz">Quartz™ – The Smart Ledgers™</a>
 
-                      <a class="l3-li-link" href="https://mastercraft.tcsapps.com/">TCS MasterCraft™</a>
+                      <a href="https://mastercraft.tcsapps.com/">TCS MasterCraft™</a>
 
-                      <a class="l3-li-link" href="https://www.jile.io/">Jile™</a>
+                      <a href="https://www.jile.io/">Jile™</a>
 
                     </div>
                   </div>
@@ -273,13 +273,13 @@ export default function Navbar() {
                 <div className="rightmega" id="r4">
                   <div className="col">
                     <div className="sub">
-                      <a class="l3-li-link" href="https://www.tcs.com/what-we-do/research">TCS Research</a>
+                      <a href="https://www.tcs.com/what-we-do/research">TCS Research</a>
 
                     </div>
                   </div>
                   <div className="col">
                     <div className="sub">
-                      <a class="l3-li-link" href="https://www.tcs.com/what-we-do/pace-innovation">TCS Pace™</a>
+                      <a href="https://www.tcs.com/what-we-do/pace-innovation">TCS Pace™</a>
                     </div>
                   </div>
 
@@ -293,8 +293,8 @@ export default function Navbar() {
 
             </div><div className="megamenu">
               <li>
-                <a class="nav-link" href="https://www.tcs.com/who-we-are">Who we are</a>
-                <span class="nav-underline"></span>
+                <a className="nav-link" href="https://www.tcs.com/who-we-are">Who we are</a>
+                <span className="nav-underline"></span>
               </li>
               <div className="megacontent">
                 <div className="leftmega">
@@ -316,23 +316,23 @@ export default function Navbar() {
                 <div className="rightmega  rightmega_1" id="s1">
                   <div className="col">
                     <div className="sub">
-                      <a class="l3-li-link" href="https://www.tcs.com/who-we-are/tcs-sustainable-business-carbon-neutrality">Corporate Sustainability</a>
+                      <a href="https://www.tcs.com/who-we-are/tcs-sustainable-business-carbon-neutrality">Corporate Sustainability</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/who-we-are/diversity-equity-inclusion">Diversity, Equity, and Inclusion</a>
+                      <a href="https://www.tcs.com/who-we-are/diversity-equity-inclusion">Diversity, Equity, and Inclusion</a>
                     </div>
                   </div>
                   <div className="col">
                     <div className="sub">
-                      <a class="l3-li-link" href="https://www.tcs.com/who-we-are/corporate-social-responsibility">Corporate Social Responsibility </a>
+                      <a href="https://www.tcs.com/who-we-are/corporate-social-responsibility">Corporate Social Responsibility </a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/who-we-are/tcs-way">The TCS Way</a>
+                      <a href="https://www.tcs.com/who-we-are/tcs-way">The TCS Way</a>
                     </div>
                   </div>
                   <div className="col">
                     <div className="sub">
-                      <a class="l3-li-link" href="https://www.tcs.com/who-we-are/sports-sponsorships">Sports Sponsorships</a>
+                      <a href="https://www.tcs.com/who-we-are/sports-sponsorships">Sports Sponsorships</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/who-we-are/alliances-partnerships">Alliances</a>
+                      <a href="https://www.tcs.com/who-we-are/alliances-partnerships">Alliances</a>
                     </div>
                   </div>
 
@@ -350,7 +350,7 @@ export default function Navbar() {
 
             </div><div className="megamenu">
               <li className="arrowup">
-                <a class="nav-link" href="https://www.tcs.com/insights">Insights</a>
+                <a className="nav-link" href="https://www.tcs.com/insights">Insights</a>
                 {/* <span><i className="fa-solid fa-caret-up"></i></span> */}
               </li>
               <div className="megacontent">
@@ -368,7 +368,7 @@ export default function Navbar() {
                   <h3 className="rightmega_r0_heading">TCS is here to make a difference through technology.</h3>
                   <p className="rightmega_r0_title">We share news, insights, analysis and research – tailored to your unique interests – to help you deepen your knowledge and impact. </p>
                   <div className="mybtn">
-                    <a href="https://www.tcs.com/insights" class="btn-l3-description  btn-responsive mt-3 mb-2 mr-4">Discover Expert Insights</a>
+                    <a href="https://www.tcs.com/insights" className="btn-l3-description  btn-responsive mt-3 mb-2 mr-4">Discover Expert Insights</a>
                   </div>
                 </div>
                 <div className="rightmega rightmega_2" id="t1">
@@ -382,34 +382,34 @@ export default function Navbar() {
                 <div className="rightmega rightmega_2" id="t3">
                   <div className="col">
                     <div className="sub">
-                      <a class="l3-li-link" href="https://www.tcs.com/insights">Insights</a>
+                      <a href="https://www.tcs.com/insights">Insights</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/insights/topics/metaverse-topic">Metaverse</a>
+                      <a href="https://www.tcs.com/insights/topics/metaverse-topic">Metaverse</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/insights/topics/sustainability-topic">Sustainability</a>
+                      <a href="https://www.tcs.com/insights/topics/sustainability-topic">Sustainability</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/insights/topics/cybersecurity-topic">Cybersecurity</a>
+                      <a href="https://www.tcs.com/insights/topics/cybersecurity-topic">Cybersecurity</a>
 
                     </div>
                   </div>
                   <div className="col">
                     <div className="sub">
-                      <a class="l3-li-link" href="https://www.tcs.com/insights/topics/ai-ml-topic">AI &amp; ML</a>
+                      <a href="https://www.tcs.com/insights/topics/ai-ml-topic">AI &amp; ML</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/insights/topics/blockchain-topic">Blockchain</a>
+                      <a href="https://www.tcs.com/insights/topics/blockchain-topic">Blockchain</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/insights/topics/cloud-topic">Cloud</a>
+                      <a href="https://www.tcs.com/insights/topics/cloud-topic">Cloud</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/insights/topics/future-of-work-topic">Future of Work</a>
+                      <a href="https://www.tcs.com/insights/topics/future-of-work-topic">Future of Work</a>
                     </div>
                   </div>
                   <div className="col">
                     <div className="sub">
-                      <a class="l3-li-link" href="https://www.tcs.com/insights/topics/health-and-wellness-topic">Health &amp; Wellness</a>
+                      <a href="https://www.tcs.com/insights/topics/health-and-wellness-topic">Health &amp; Wellness</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/insights/topics/internet-of-things-topic">IoT</a>
+                      <a href="https://www.tcs.com/insights/topics/internet-of-things-topic">IoT</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/insights/topics/data-analytics-storage-topic">Data Analytics and Storage</a>
+                      <a href="https://www.tcs.com/insights/topics/data-analytics-storage-topic">Data Analytics and Storage</a>
 
 
                     </div>
@@ -424,7 +424,7 @@ export default function Navbar() {
             </div>
             <div className="megamenu">
               <li className="arrowup">
-                <a class="nav-link" href="https://www.tcs.com/careers">Careers</a>
+                <a className="nav-link" href="https://www.tcs.com/careers">Careers</a>
                 {/* <span><i className="fa-solid fa-caret-up"></i></span> */}
               </li>
               <div className="megacontent">
@@ -443,13 +443,13 @@ export default function Navbar() {
                   <h3 className="rightmega_r0_heading">Want to be a global change-maker? Join our team. </h3>
                   <p className="rightmega_r0_title">At TCS, we believe exceptional work begins with hiring, celebrating and nurturing the best people — from all walks of life. </p>
                   <div className="mybtn">
-                    <a href="https://www.tcs.com/careers" class="btn-l3-description  btn-responsive mt-3 mb-2 mr-4">Join us</a>
+                    <a href="https://www.tcs.com/careers" className="btn-l3-description  btn-responsive mt-3 mb-2 mr-4">Join us</a>
                   </div>
                 </div>
                 <div className="rightmega rightmega_3" id="u1">
                   <div className="col">
                     <div className="sub">
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/india">India</a>
+                      <a href="https://www.tcs.com/careers/india">India</a>
 
                     </div>
                   </div>
@@ -459,33 +459,33 @@ export default function Navbar() {
                 <div className="rightmega rightmega_3" id="u2">
                   <div className="col">
                     <div className="sub">
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/argentina">Argentina</a>
+                      <a href="https://www.tcs.com/careers/argentina">Argentina</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/brazil">Brazil</a>
+                      <a href="https://www.tcs.com/careers/brazil">Brazil</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/canada">Canada</a>
+                      <a href="https://www.tcs.com/careers/canada">Canada</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/chile">Chile</a>
+                      <a href="https://www.tcs.com/careers/chile">Chile</a>
 
                     </div>
                   </div>
                   <div className="col">
                     <div className="sub">
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/colombia">Colombia</a>
+                      <a href="https://www.tcs.com/careers/colombia">Colombia</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/ecuador">Ecuador</a>
+                      <a href="https://www.tcs.com/careers/ecuador">Ecuador</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/mexico">Mexico</a>
+                      <a href="https://www.tcs.com/careers/mexico">Mexico</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/peru">Peru</a>
+                      <a href="https://www.tcs.com/careers/peru">Peru</a>
                     </div>
                   </div>
                   <div className="col">
                     <div className="sub">
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/uruguay">Uruguay</a>
+                      <a href="https://www.tcs.com/careers/uruguay">Uruguay</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/united-states">USA</a>
+                      <a href="https://www.tcs.com/careers/united-states">USA</a>
 
                     </div>
                   </div>
@@ -494,36 +494,36 @@ export default function Navbar() {
                 <div className="rightmega rightmega_3" id="u3">
                   <div className="col">
                     <div className="sub">
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/australia">Australia</a>
+                      <a href="https://www.tcs.com/careers/australia">Australia</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/china">China</a>
+                      <a href="https://www.tcs.com/careers/china">China</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/hongkong">Hong Kong</a>
+                      <a href="https://www.tcs.com/careers/hongkong">Hong Kong</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/indonesia">Indonesia</a>
+                      <a href="https://www.tcs.com/careers/indonesia">Indonesia</a>
 
                     </div>
                   </div>
                   <div className="col">
                     <div className="sub">
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/japan">Japan</a>
+                      <a href="https://www.tcs.com/careers/japan">Japan</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/malaysia">Malaysia</a>
+                      <a href="https://www.tcs.com/careers/malaysia">Malaysia</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/newzealand">New Zealand</a>
+                      <a href="https://www.tcs.com/careers/newzealand">New Zealand</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/philippines">Philippines</a>
+                      <a href="https://www.tcs.com/careers/philippines">Philippines</a>
                     </div>
                   </div>
                   <div className="col">
                     <div className="sub">
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/republic-of-korea">Republic of Korea</a>
+                      <a href="https://www.tcs.com/careers/republic-of-korea">Republic of Korea</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/singapore">Singapore</a>
+                      <a href="https://www.tcs.com/careers/singapore">Singapore</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/taiwan">Taiwan</a>
+                      <a href="https://www.tcs.com/careers/taiwan">Taiwan</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/thailand">Thailand</a>
+                      <a href="https://www.tcs.com/careers/thailand">Thailand</a>
 
                     </div>
                   </div>
@@ -533,45 +533,45 @@ export default function Navbar() {
                   <div className="col">
                     <div className="sub">
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/denmark">Denmark</a>
+                      <a href="https://www.tcs.com/careers/denmark">Denmark</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/estonia">Estonia</a>
+                      <a href="https://www.tcs.com/careers/estonia">Estonia</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/finland">Finland</a>
+                      <a href="https://www.tcs.com/careers/finland">Finland</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/france">France</a>
+                      <a href="https://www.tcs.com/careers/france">France</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/germany">Germany</a>
+                      <a href="https://www.tcs.com/careers/germany">Germany</a>
 
                     </div>
                   </div>
                   <div className="col">
                     <div className="sub">
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/hungary">Hungary</a>
+                      <a href="https://www.tcs.com/careers/hungary">Hungary</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/ireland">Ireland</a>
+                      <a href="https://www.tcs.com/careers/ireland">Ireland</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/italy">Italy</a>
+                      <a href="https://www.tcs.com/careers/italy">Italy</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/luxembourg">Luxembourg</a>
+                      <a href="https://www.tcs.com/careers/luxembourg">Luxembourg</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/netherlands">Netherlands</a>
+                      <a href="https://www.tcs.com/careers/netherlands">Netherlands</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/norway">Norway</a>
+                      <a href="https://www.tcs.com/careers/norway">Norway</a>
                     </div>
                   </div><div className="col">
                     <div className="sub">
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/poland">Poland</a>
+                      <a href="https://www.tcs.com/careers/poland">Poland</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/portugal">Portugal</a>
+                      <a href="https://www.tcs.com/careers/portugal">Portugal</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/spain">Spain</a>
+                      <a href="https://www.tcs.com/careers/spain">Spain</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/sweden">Sweden</a>
+                      <a href="https://www.tcs.com/careers/sweden">Sweden</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/switzerland">Switzerland</a>
+                      <a href="https://www.tcs.com/careers/switzerland">Switzerland</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/united-kingdom">United Kingdom</a>
+                      <a href="https://www.tcs.com/careers/united-kingdom">United Kingdom</a>
                     </div>
                   </div>
 
@@ -580,26 +580,26 @@ export default function Navbar() {
                 <div className="rightmega rightmega_3" id="u5">
                   <div className="col">
                     <div className="sub">
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/bahrain">Bahrain</a>
+                      <a href="https://www.tcs.com/careers/bahrain">Bahrain</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/israel">Israel</a>
+                      <a href="https://www.tcs.com/careers/israel">Israel</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/kuwait">Kuwait</a>
+                      <a href="https://www.tcs.com/careers/kuwait">Kuwait</a>
 
                     </div>
                   </div>
                   <div className="col">
                     <div className="sub">
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/qatar">Qatar</a>
+                      <a href="https://www.tcs.com/careers/qatar">Qatar</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/saudi-arabia">Saudi Arabia</a>
+                      <a href="https://www.tcs.com/careers/saudi-arabia">Saudi Arabia</a>
 
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/south-africa">South Africa</a>
+                      <a href="https://www.tcs.com/careers/south-africa">South Africa</a>
                     </div>
                   </div>
                   <div className="col">
                     <div className="sub">
-                      <a class="l3-li-link" href="https://www.tcs.com/careers/united-arab-emirates">United Arab Emirates</a>
+                      <a href="https://www.tcs.com/careers/united-arab-emirates">United Arab Emirates</a>
                     </div>
                   </div>
 
@@ -614,51 +614,168 @@ export default function Navbar() {
 
             </div>
             <li>
-              <a class="nav-link" href="https://www.tcs.com/investor-relations">Investors</a>
+              <a className="nav-link" href="https://www.tcs.com/investor-relations">Investors</a>
               <span className="nav-underline"></span>
             </li>
           </ul>
 
           <div className="rightNavLinks">
-            <span class="navbar-text">
+            <span className="navbar-text">
               <a href="https://www.tcs.com/contact-us/whats-on-your-mind">Contact us</a>
             </span>
-            <span class="navbar-text">
+            <span className="navbar-text">
               <a href="https://www.tcs.com/who-we-are/worldwide">TCS Worldwide</a>
             </span>
-            
-            <span class="navbar-text py-0 tcs-white-logo">
-              <a href="https://www.tata.com/" target="_blank" title="tata.com"><img src="https://www.tcs.com/content/dam/global-tcs/en/images/home/logo-tata.svg" alt="tata.com" /><span class="sr-only">tata.com</span></a>
+
+            <span className="navbar-text py-0 tcs-white-logo">
+              <a href="https://www.tata.com/" target="_blank" title="tata.com"><img src="https://www.tcs.com/content/dam/global-tcs/en/images/home/logo-tata.svg" alt="tata.com" /><span className="sr-only">tata.com</span></a>
             </span>
           </div>
 
         </div>
 
       </nav>
-      {/* code for mobnav */}
-      <nav className="myMobNav navbar navbar-expand-dark bg-dark">
+
+
+
+      {/* nav for mobile */}
+
+
+      {/* off canvas direction change */}
+      {/* In the HTML, change the className "offcanvas-end" to "offcanvas-start". This will tell Bootstrap to position the off-canvas navbar on the left side of the screen.
+
+In the CSS, add the following rule to override the default behavior of the off-canvas component:
+
+css
+Copy code
+.offcanvas-start {
+    transform: translateX(-100%);
+} */}
+
+      <nav className="myMobNav navbar navbar-dark bg-dark fixed-top">
         <div className="container-fluid">
-          <Link to="/" ><img className="brand-logo-img" src="https://www.tcs.com/content/dam/global-tcs/en/images/home/dark-theme.svg" alt="Tata Consultancy Services" title="Tata Consultancy Services" /></Link>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <Link to="/" ><img className="brand-logo-img" src="https://www.tcs.com/content/dam/global-tcs/en/images/home/dark-theme.svg" alt="Tata Consultancy Services" title="Tata Consultancy Services" /></Link>
+
+          <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">Link</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
+          <div className="offcanvas offcanvas-start text-bg-dark" tabIndex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div className="offcanvas-header">
+            <Link to="/" ><img className="brand-logo-img" src="https://www.tcs.com/content/dam/global-tcs/en/images/home/dark-theme.svg" alt="Tata Consultancy Services" title="Tata Consultancy Services" /></Link>
 
+              <button type="button" className="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div className="offcanvas-body">
+              <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li className="nav-item outer-nav-item">
+                  <a className="nav-link active" aria-current="page" href="#link1" data-bs-toggle="collapse">What We Do</a>
+                  <div id="link1" className="collapse show">
+                   
+                    <li className="nav-item inner-nav-item">
+                      <a className="nav-link" href="#link1a" data-bs-toggle="collapse">Overview</a>
+                      <div id="link1a" className="collapse">
+                        <p className="innernav-content">Link content goes here.</p>
+                       
+                        
+                      </div>
+                    </li>
+                    <li className="nav-item inner-nav-item">
+                      <a className="nav-link" href="#link1b" data-bs-toggle="collapse">Industries</a>
+                      <div id="link1b" className="collapse">
+                        <p className="innernav-content">Banking</p>
+                        <p className="innernav-content">Capital Markets</p>
+                        <p className="innernav-content">Consumer Goods and Distribution</p>
+                        <p className="innernav-content">Communications, Media, and Information Services</p>
+                        <p className="innernav-content">Education</p>
+                        <p className="innernav-content">Energy, Resources, and Utilities</p>
+                        <p className="innernav-content">Healthcare</p>
+                        <p className="innernav-content">High Tech</p>
+                        <p className="innernav-content">Insurance</p>
+                        <p className="innernav-content">Life Sciences</p>
+                        <p className="innernav-content">Manufacturing</p>
+                        <p className="innernav-content">Public Services</p>
+                        <p className="innernav-content">Retail</p>
+                        <p className="innernav-content">Travel and Logistics</p>
+                      </div>
+                    </li>
+                    <li className="nav-item inner-nav-item">
+                      <a className="nav-link" href="#link1c" data-bs-toggle="collapse">Services</a>
+                      <div id="link1c" className="collapse">
+                        <p>Cloud</p>
+                        <p>Cognitive Business Operations</p>
+                        <p>Consulting</p>
+                        <p>Cybersecurity</p>
+                        <p>Data and Analytics</p>
+                        <p>Enterprise Solutions</p>
+                        <p>IoT and Digital Engineering</p>
+                        <p>TCS Interactive</p>
+                        <p>Sustainability Services</p>
+                      </div>
+                    </li> 
+                    <li className="nav-item inner-nav-item">
+                      <a className="nav-link" href="#link1d" data-bs-toggle="collapse">Products and Platforms </a>
+                      <div id="link1d" className="collapse">
+                        <p>TCS ADD</p>
+                        <p>TCS BANCS™</p>
+                        <p>TCS BFSI Platforms</p>
+                        <p>TCS CHROMA™</p>
+                        <p>TCS Customer Intelligence & Insights™</p>
+                        <p>TCS ERP on Cloud</p>
+                        <p>ignio™</p>
+                        <p>TCS iON™</p>
+                        <p>TCS HOBS™</p>
+                        <p>TCS Intelligent Urban Exchange™</p>
+                        <p>TCS OmniStore™</p>
+                        <p>TCS Optumera™</p>
+                        <p>TCS TAP™</p>
+                        <p>Quartz™ – The Smart Ledgers™</p>
+                        <p>TCS MasterCraft™</p>
+                        <p>Jile™</p>
+                      </div>
+                    </li>
+                    <li className="nav-item inner-nav-item">
+                      <a className="nav-link" href="#link1e" data-bs-toggle="collapse">Research & Innovation </a>
+                      <div id="link1e" className="collapse">
+                        <p>TCS Research</p>
+                        <p>TCS Pace™</p>
+                      </div>
+                    </li>
+                  </div>
+                </li>
+                <li className="nav-item outer-nav-item">
+                  <a className="nav-link" href="#link2" data-bs-toggle="collapse">Who We Are</a>
+                  <div id="link2" className="collapse">
+                    <p>Link content goes here.</p>
+                  </div>
+                </li>
+                <li className="nav-item outer-nav-item">
+                  <a className="nav-link" href="#link3" data-bs-toggle="collapse">Insights</a>
+                  <div id="link1.5" className="collapse">
+                    <p>Link content goes here.</p>
+                  </div>
+                </li>
+                <li className="nav-item outer-nav-item">
+                  <a className="nav-link" href="#link4" data-bs-toggle="collapse">Careers</a>
+                  <div id="link4" className="collapse">
+                    <p>Link content goes here.</p>
+                  </div>
+                </li>
+                <li className="nav-item outer-nav-item">
+                  <a className="nav-link" href="#link5" data-bs-toggle="collapse">Investors</a>
+                  <div id="link5" className="collapse">
+                    <p>Link content goes here.</p>
+                  </div>
+                </li>
+              </ul>
+              {/* <form className="d-flex mt-3" role="search">
+          <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button className="btn btn-success" type="submit">Search</button>
+        </form> */}
+            </div>
           </div>
         </div>
       </nav>
-      
+
     </>
 
 

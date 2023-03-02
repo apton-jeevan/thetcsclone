@@ -214,3 +214,23 @@ padding-left: 20px;
         display:none;
     }
 }
+
+
+
+.offcanvas-start {
+    transform: translateX(-100%);
+}
+
+.myMobNav .outer-nav-item{
+    border-bottom:0.5px solid rgb(90, 89, 89);
+}
+
+.myMobNav .inner-nav-item{
+    border-bottom:0.5px solid rgb(90, 89, 89);
+    margin-left:10px
+}
+    
+.innernav-content{
+    margin-left:5px;
+     
+}
