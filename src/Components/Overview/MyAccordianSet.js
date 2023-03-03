@@ -4,6 +4,7 @@ import "./MyAccordianSet.css"
 export default function MyAccordianSet() {
     return (
         <div className='container'>
+                
 
             <div className="myAccordianDescription">
                 <p className="myAccordianHeading">Products and Platforms</p>

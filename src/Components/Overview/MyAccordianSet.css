@@ -79,3 +79,13 @@
     color: #000;
 
 }
+
+
+@media screen and (max-width: 576px) {
+    .accordionItemCount{
+        font-size:2rem;
+    }
+    .accordionItemTitle{
+        font-size: 1rem;
+    }
+  }

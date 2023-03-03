@@ -1,21 +1,56 @@
-.services{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: #1e2222;;
+    .services {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: #1e2222;
+        position: relative;
+    }
+
+    .custom-container {
+        padding-left:6vw;
+        padding-bottom: 100px;
+    }
+
+    .services-title {
+        color: white;
+        padding-bottom: 20px;
+    }
+
+    .services-card {
+            position: relative;
+            padding-top:10px; 
+        }
+        
+        .services-card img {
+                
+            width: 90%;
+            opacity: 0.4;
+            transition: transform 0.5s;
+    }
+    .services-card img:hover {
+       opacity:1;
+       transform: translateY(-3%)
 }
-.custom-container{
-    padding-left: 100px;
-    padding-bottom: 100px;
-}
-.services-title{
-    color: white;
-    padding-bottom: 20px;
-}
-.services-card{
-    width: 100%;
-    height: 300px;
-    overflow: hidden;
-}
-.services-card img{
-    width: 90%;
-}
+
+    .servicesCardTitle {
+        position:absolute;
+        top:2%;
+        left:2%;
+        color:white !important;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        letter-spacing: .5px;
+    }
+
+    #servicesMore{
+        display: none;
+    }
+
+    .services_button{
+        border:1px solid white;
+        border-radius:10px;
+        color:white;
+        width: fit-content;
+    }
+    .services_button i{
+        padding-left:10px;
+    }
