@@ -36,3 +36,46 @@
     line-height: 2.5rem;
     color: #000;
 }
+
+.myAccBody p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: .5px;
+    color: #494c4d;
+}
+.myAccBody i{
+ color:#e41165;
+ font-size:xx-large;
+ padding-left: 10px;
+}
+
+.myAccBody a {
+    text-decoration: none;
+    color: black;
+    font-family: "Basis Grotesque Pro";
+    font-size: 1.125rem;
+    line-height: 2rem;
+    letter-spacing: .5px;
+    color: #000;
+    
+}
+.myAccBody .bodyWithTxt{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.myAccBody .bodyWithTxt h3 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    color: #000;
+    font-family: "Houschka-medium";
+}
+
+.myAccBody .bodyWithTxt p {
+    padding-bottom: 42px;
+    font-size: 1.125rem;
+    line-height: 2rem;
+    letter-spacing: .5px;
+    color: #000;
+
+}

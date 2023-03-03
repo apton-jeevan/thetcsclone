@@ -9,14 +9,12 @@
 
 .container1,
 .insightCard a,
-a,
+
  .insightCard h1{
   font-family: "Houschka Pro Medium", sans-serif;
   color:white;
 }
-a{
-  color:white !important;
-}
+
 .myInsight{
   background-color:black;
 }

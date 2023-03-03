@@ -18,7 +18,7 @@ export default function Discovertcsdiff() {
                     <OwlCarousel className='owl-theme' dots={false} items={1} nav animateOut={true}>
                         {data.map((data) => {
                             return (<div className='item' key={data.description}>
-                                <div className="carousel" style={{ maxHeight: "757px" ,width:"100%" }}>
+                                <div className="carousel" style={{ maxHeight: "635px" ,width:"100%" }}>
                                     <img src={data.imgurl} ></img>
 
                                     <div className="row2 containerpadleft20">
