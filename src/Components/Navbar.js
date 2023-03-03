@@ -168,7 +168,7 @@ export default function Navbar() {
                 <div className="rightmega" id="r1">
                   <div className="col">
                     <div className="sub">
-                      <a href="https://www.tcs.com/what-we-do/industries/banking">Banking</a>
+                      <Link to="/industries/banking">Banking</Link>
                       <a href="https://www.tcs.com/what-we-do/industries/capital-markets">Capital Markets</a>
                       <a href="https://www.tcs.com/what-we-do/industries/consumer-goods-distribution">Consumer Goods and Distribution</a>
                       <a href="https://www.tcs.com/what-we-do/industries/communications-media-information-services">Communications, Media, and Information Services</a>
@@ -682,7 +682,7 @@ Copy code
                     <li className="nav-item inner-nav-item">
                       <a className="nav-link" href="#link1b" data-bs-toggle="collapse">Industries</a>
                       <div id="link1b" className="collapse">
-                        <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/banking">Banking</a>
+                        <Link className="innernav-content" to="https://www.tcs.com/what-we-do/industries/banking">Banking</Link>
                         <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/capital-markets">Capital Markets</a>
                         <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/consumer-goods-distribution">Consumer Goods and Distribution</a>
                         <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/communications-media-information-services">Communications, Media, and Information Services</a>
