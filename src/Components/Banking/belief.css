@@ -1,0 +1,48 @@
+/* Belief Section */
+.container2{
+    padding-left:8vw;
+    padding-right:8vw;
+    background-color: #f4f3f9;
+}
+.container2 h1{
+  color:black;
+}
+
+.beliefCardsContainer{
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    height: auto;
+    margin-top: 12px;
+   
+  }
+  
+  .beliefCard{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    width: 377.5px;
+    /* height: 396px; */
+    gap: 12px;
+  }
+  
+  .beliefCard img{
+    height: 280px !important;
+    object-fit: cover;
+  }
+  
+  .beliefCard img:hover{
+    transform: scale(1.02); 
+  }
+  
+  .beliefCard h1{
+    
+    color: #000;
+    font-size: 24px;
+  }
+  
+  .beliefCard p{
+    font-size: 16px;
+    color: rgb(73, 76, 77);
+  }
