@@ -5,7 +5,7 @@
 }
 
 .side-img {
-    height: 400px;
+    
     overflow: hidden;
 
 }
@@ -21,9 +21,17 @@
     font-size: 1.125rem;
     color: #fff;
     letter-spacing: .03125rem;
-    height: 3.5rem;
     padding: 9pt 2pc;
 }
 .transformation-btn:hover{
     color: black;
 }
+@media screen and (max-width: 768px) {
+    .side-img {
+        display: none;
+    }
+    .transformation{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+  }
