@@ -1,12 +1,12 @@
-<div class="hero-banner-content-div">
-
-    <div class="hero-banner-title-div pt-lg-32 pb-lg-3 rte-links-div ">
-        <h1>Banks go boundaryless</h1>
-
-        <p>We help you drive holistic growth with a secure, boundaryless, and humane approach.</p>
-
-    </div>
-
-    <a href="https://www.tcs.com/contact-us/industry-overlay/talk-to-an-expert-banking" >Let's talk <i class="fa-solid fa-circle-arrow-right"></i></a>
-
-</div>
+<div class="author-detail d-flex justify-content-between flex-lg-row flex-column">
+          <div class="row">
+            
+            <div class="px-3 d-flex align-items-center">
+              <div class="d-inline">
+                <h6 class="mb-1 quote-inner-content-heading">ANNE-JOUKE OSINGA</h6>
+                <p class="quote-inner-content-para">Chapter Lead, Customer Journey, WestlandUtrecht Bank (subsidiary of ING Bank) </p>
+              </div>
+            </div>
+          </div>
+          
+        </div>

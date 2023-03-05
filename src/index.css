@@ -1,3 +1,7 @@
 *{
     font-family: "Houschka Pro Medium", sans-serif;
+    
+}
+body{
+    overflow-x: hidden;
 }

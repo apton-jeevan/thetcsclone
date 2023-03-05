@@ -6,7 +6,7 @@ export default function Transformation() {
             <div className='container-fluid'>
                 <div className="row justify-content-center align-items-center">
                     <div className="col-md-5 side-img">
-                        <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/footer-cta-image:Extra-Medium?wid=984&hei=816&dpr=off" alt="happy team" />
+                        <img src="https://s7ap1.scene7.com/is/image/TCSCOMprod/banking-footer:Extra-Medium?wid=820&hei=680&dpr=off" alt="happy team" />
                     </div>
                     <div className="col col-md-1"></div>
                     <div className="col-sm-12 col-md-6">
