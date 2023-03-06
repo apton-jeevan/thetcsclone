@@ -67,6 +67,7 @@
 /* //tcs carousel */
 .mytcscarousel {
     background-color: white;
+    position: relative;
 }
 
 .mytcscarousel .carousel_outer {
@@ -111,10 +112,21 @@
     padding-left: 20px;
 }
 
-.mytcscarousel .owl-theme .owl-nav {
-    color: black;
+
+
+.mytcscarousel .owl-nav button.owl-prev {
+    position: absolute;
+    top:38%;
+    left:1%;
+    font-size: 40px;
 }
 
+.mytcscarousel .owl-nav button.owl-next {
+    position:absolute;
+    top:38%;
+    right:1%;
+    font-size: 40px;
+}
 /* what we do */
 .whatwedo {
     background-color: white;

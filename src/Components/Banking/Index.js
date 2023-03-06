@@ -5,6 +5,7 @@ import BankingHero from './BankingHero'
 import Belief from './Belief'
 import MyAccordianSet from './MyAccordianSet'
 import Review from '../Review'
+import BankingCarousel from './BankingCarousel'
 
 export default function Index() {
   return (
@@ -14,6 +15,7 @@ export default function Index() {
      <MyAccordianSet/>
      <Services/>
      <Review/>
+     <BankingCarousel/>
      <Transformation/>
     </div>
   )

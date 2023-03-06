@@ -32,7 +32,7 @@ export default function HeroSection() {
                             </div>)
                         })
                         }
-                    </OwlCarousel>
+                    </OwlCarousel>  
             </div>
         </div>
 

@@ -1,9 +1,9 @@
 .review .review-heading {
-    font-size: 3.5rem !important;
-    font-family: "Houschka Pro Medium " !important;
-    color: #e41165 !important;
-    line-height: 56px !important;
-    margin: 2pc 0 !important;
+    font-size: 3.5rem;
+    font-family: "Houschka Pro Medium ";
+    color: #e41165 ;
+    line-height: 56px;
+    margin: 2pc 0 ;
     font-weight: 500;
 }
 
@@ -21,8 +21,16 @@
 }
 
 .review .author .designation {
-      font-size: 1rem;
+    font-size: 1rem;
     color: #000;
     letter-spacing: .5px;
     margin: 0;
+}
+
+
+@media screen and (max-width:992px) {
+    .review .review-heading {
+        font-size: 2.5rem;
+        line-height: 40px;
+    }
 }

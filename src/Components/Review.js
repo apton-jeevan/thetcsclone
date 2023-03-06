@@ -6,7 +6,7 @@ export default function Review() {
         <div>
             <div className="container p-4 review">
                 <img src="https://www.tcs.com/etc.clientlibs/tcs/clientlibs/clientlib-site/resources/images/quote.svg" alt="Tata" />
-                <h5 className="review-heading col-8">TCS stood out to us because, in our opinion, they had the best understanding of what it meant to us to be unburdened.</h5>
+                <h5 className="review-heading col-sm-12 col-lg-8">TCS stood out to us because, in our opinion, they had the best understanding of what it meant to us to be unburdened.</h5>
 
                 <div className="author">
                 <h6 class="name">ANNE-JOUKE OSINGA</h6>
@@ -19,3 +19,5 @@ export default function Review() {
 
     )
 }
+
+

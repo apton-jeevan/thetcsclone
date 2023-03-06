@@ -31,3 +31,53 @@ transform: scale(1.03); /* Scale the image on hover using transform property */
     border:1px solid white;
     width:20%
 }
+
+.scaledcarousel .owl-nav button.owl-prev {
+    position: absolute;
+    top:45%;
+    left:5%;
+    font-size: 40px;
+}
+
+.scaledcarousel .owl-nav button.owl-next {
+    position:absolute;
+    top:45%;
+    right:5%;
+    font-size: 40px;
+}
+.discovertcs .contentOnHover .mytext {
+    display: block;
+}
+.discovertcs.contentOnHover:hover img {
+    opacity: 1;
+}
+.discovertcs .contentOnHover {
+    position: relative;
+}
+
+.discovertcs .contentOnHover .mytext {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+.discovertcs .contentOnHover .mytext h5 {
+    font-size: 2rem;
+    line-height: 40px;
+    color: #fff;
+    margin-bottom: 2.25rem;
+    font-family: "Houschka Pro Medium";
+    
+}
+.discovertcs .myherobutton {
+    background: linear-gradient(102.57deg, #dc0916, #f41fd6 100%, #f41fd6 0);
+    border-radius: 6.25rem;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: .03125rem;
+    padding: 9pt 2pc;
+    /* font-family: Basis-regular; */
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    width: auto;
+
+}

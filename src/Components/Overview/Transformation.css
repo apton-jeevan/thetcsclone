@@ -13,13 +13,15 @@
 .transformation img {
     width: 100%;
 }
-.transformation-heading{
-    font-size: 3.5rem !important;
+
+.transformation-heading {
+    font-size: 3.5rem;
     line-height: 3.5rem;
     color: #fff;
-    font-family: Houschka-Light;
+    font-family: "Houschka Pro Medium"
 }
-.transformation-para{
+
+.transformation-para {
     font-size: 1.125rem;
     line-height: 2rem;
     letter-spacing: .03125rem;
@@ -35,17 +37,24 @@
     color: #fff;
     letter-spacing: .03125rem;
     padding: 9pt 2pc;
-    
+
 }
-.transformation-btn:hover{
+
+.transformation-btn:hover {
     color: black;
 }
+
 @media screen and (max-width: 768px) {
     .side-img {
         display: none;
     }
-    .transformation{
+
+    .transformation {
         padding-top: 20px;
         padding-bottom: 20px;
     }
-  }
+
+    .transformation-heading {
+        font-size: 2.5rem;
+    }
+}

@@ -682,7 +682,7 @@ Copy code
                     <li className="nav-item inner-nav-item">
                       <a className="nav-link" href="#link1b" data-bs-toggle="collapse">Industries</a>
                       <div id="link1b" className="collapse">
-                        <Link className="innernav-content" to="https://www.tcs.com/what-we-do/industries/banking">Banking</Link>
+                        <Link className="innernav-content" to="/industries/banking">Banking</Link>
                         <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/capital-markets">Capital Markets</a>
                         <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/consumer-goods-distribution">Consumer Goods and Distribution</a>
                         <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/communications-media-information-services">Communications, Media, and Information Services</a>

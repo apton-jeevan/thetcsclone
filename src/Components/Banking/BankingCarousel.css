@@ -1,0 +1,31 @@
+
+.recognition{
+    background-color: #f4f3f9;
+    position: relative !important;
+    padding-bottom: 32px;
+}
+.recognition .heading{
+    font-family: "Basis Grotesque Pro";
+    font-size: .875rem;
+    line-height: 1.5rem;
+    letter-spacing: .15em;
+    color: #000;
+    padding-bottom: 56px;
+}
+
+.recognition .owl-nav button.owl-next{
+    color:black !important;
+    font-size: 40px !important;
+    position: absolute !important;
+    top:35%;
+    right:2%
+}
+.recognition .owl-nav button.owl-prev{
+    color:black !important;
+    font-size: 40px !important;
+    position: absolute !important;
+    top:35%;
+    left:2% 
+
+
+}

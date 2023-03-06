@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Discovertcsdiff.css"
 import "../../App.css"
-import { data } from "./Discovertcsdata"
+import { discoverdata } from "./Discovertcsdata"
 
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
@@ -15,18 +15,21 @@ export default function Discovertcsdiff() {
             <div className="discovertcs container1">
                 <h2 className="row row1">Discover the TCS difference </h2>
                 <div className="scaledcarousel">
-                    <OwlCarousel className='owl-theme' dots={false} items={1} nav animateOut={true}>
-                        {data.map((data) => {
-                            return (<div className='item' key={data.description}>
-                                <div className="carousel" style={{ maxHeight: "635px" ,width:"100%" }}>
-                                    <img src={data.imgurl} ></img>
-
-                                    <div className="row2 containerpadleft20">
-                                        <div className="row">
-                                            <h5>{data.description}</h5>
-                                        </div>
-                                        <div className="row">
-                                            <p><b>{data.btntxt}</b></p>
+                    <OwlCarousel className='owl-theme' dots={false} items={1} nav>
+                        {discoverdata.map((data) => {
+                            return (<div className='item' style={{ height: "532px" }} key={data.id}>
+                                <div className="carousel" >
+                                    <div className="contentOnHover">
+                                        <img src={data.imgurl}></img>
+                                        <div className="mytext ">
+                                            <div className="col-4">
+                                                <h5 className="title ">{data.description}</h5>
+                                            </div>
+                                            <button className="myherobutton">
+                                                <a className='btntext' href="https://www.tcs.com/who-we-are/newsroom/press-release/tcs-named-world-most-admired-companies-list-fortune-magazine">
+                                                    {data.btntxt}
+                                                </a>
+                                            </button>
                                         </div>
                                     </div>
 
