@@ -75,7 +75,6 @@ transform: scale(1.03); /* Scale the image on hover using transform property */
     color: #fff;
     letter-spacing: .03125rem;
     padding: 9pt 2pc;
-    /* font-family: Basis-regular; */
     -webkit-transition: all .5s;
     transition: all .5s;
     width: auto;

@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar";
 import Overview from "./Components/Overview/Index"
 import HomePage from "./Components/HomePage/Index"
 import Banking from "./Components/Banking/Index"
+import CapitalMarkets from "./Components/CapitalMarkets/Index"
 
 import React from "react";
 import {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" element={ <HomePage/>}></Route>
           <Route path="/overview" element={<Overview />}></Route>
           <Route path="/industries/banking" element={<Banking/>}></Route>
+          <Route path="/industries/capitalmarkets" element={<CapitalMarkets/>}></Route>
         </Routes>
         <Footer />
         <FooterBase />

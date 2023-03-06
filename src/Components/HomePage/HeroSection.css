@@ -24,15 +24,15 @@
     color: white;
 }
 
-.contentOnHover {
-    position: relative;
-}
+    .contentOnHover {
+        position: relative;
+    }
 
-.contentOnHover .mytext {
-    position: absolute;
-    top: 20%;
-    left: 5%;
-}
+    .contentOnHover .mytext {
+        position: absolute;
+        top: 20%;
+        left: 5%;
+    }
 
 .contentOnHover .mytext p {
     font-size: 24px;

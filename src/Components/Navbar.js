@@ -169,7 +169,7 @@ export default function Navbar() {
                   <div className="col">
                     <div className="sub">
                       <Link to="/industries/banking">Banking</Link>
-                      <a href="https://www.tcs.com/what-we-do/industries/capital-markets">Capital Markets</a>
+                      <Link to="/industries/capitalmarkets">Capital Markets</Link>
                       <a href="https://www.tcs.com/what-we-do/industries/consumer-goods-distribution">Consumer Goods and Distribution</a>
                       <a href="https://www.tcs.com/what-we-do/industries/communications-media-information-services">Communications, Media, and Information Services</a>
 
@@ -683,7 +683,7 @@ Copy code
                       <a className="nav-link" href="#link1b" data-bs-toggle="collapse">Industries</a>
                       <div id="link1b" className="collapse">
                         <Link className="innernav-content" to="/industries/banking">Banking</Link>
-                        <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/capital-markets">Capital Markets</a>
+                        <Link className="innernav-content"to="/industries/capitalmarkets" >Capital Markets</Link>
                         <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/consumer-goods-distribution">Consumer Goods and Distribution</a>
                         <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/communications-media-information-services">Communications, Media, and Information Services</a>
                         <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/education">Education</a>

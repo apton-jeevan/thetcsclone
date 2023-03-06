@@ -1,12 +1,13 @@
 import React from 'react'
-import './belief.css';
-import { data } from './inFocusData'
+import '../Banking/belief.css';
+import "./CapitalInfocus.css"
+import { data } from './CapitalInFocusData'
 
-export default function Belief() {
+export default function InFocus() {
 
   const cardData = data.map(item => {
     return (
-      <a key={item.id} className="beliefCard" href={item.cardUrl} target="_blank">
+      <a key={item.id} className="beliefCard capitalcard" href={item.cardUrl} target="_blank">
         <img src={item.imgUrl} alt='beliefCard' />
         <h1>{item.title}</h1>
         <p>{item.date}</p>
@@ -15,7 +16,7 @@ export default function Belief() {
   })
 
   return (
-    <div className='container2'>
+    <div className='container2 capitalcontainer'>
       <div className='insightsTitle' style={{paddingTop: "50px"}}>
         <h1>In focus</h1>
       </div>
