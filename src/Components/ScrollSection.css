@@ -128,6 +128,7 @@
 
 .highlight_li {
     border-left: 4px solid #e41165 !important;
+    list-style: none;
 }
 
 .highlight_a {
@@ -137,13 +138,62 @@
 .highlight_span {
     color: #e41165;
 }
-
+.mobscrollcarousel{
+    display:none;
+}
 @media screen and (max-width:1200px) {
     .scrollsection-innercontainer{
-        flex-direction: column;
+        display:none;
+    }
+    .mobscrollcarousel{
+        display:block;
+        position: relative;
+    }
+    .mobpara{
+        background-color: #f4f3f9;
+        padding-left: 20px;
+        padding-top: 20px;
+
+    }
+    .mobscrollcarousel .item .topics{
+        padding-left:10px;
+    }
+    .mobscrollcarousel .item .topics a{
+        color:black !important;
+        text-decoration: none;
+        list-style: none;
+    };
+    .mobscrollcarousel .item .topics .topicname{
+        line-height: 2rem;
+        font-size: 1.125rem;
+        font-family: "Houschka Pro Medium";
+        font-weight: 400
     }
     .paragraph-container{
         width:100%;
-        height: 400px !important;;
+        height: 400px !important;
+        
+    }
+    .topics-container{
+        width: 100%;
+    }
+    .mobscrollcarousel .owl-theme{
+        width: 100% !important;
+    }
+    .mobscrollcarousel .para_items{
+        padding-bottom:0px;
+    }
+
+    .mobscrollcarousel .owl-nav button.owl-prev {
+        position: absolute;
+        top:-5%;
+        font-size: 40px;
+    }
+    
+    .mobscrollcarousel .owl-nav button.owl-next {
+        position:absolute;
+        top:-5%;
+        font-size: 40px;
+        right:30%;
     }
 }

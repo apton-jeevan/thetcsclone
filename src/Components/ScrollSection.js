@@ -2,6 +2,9 @@ import React from 'react'
 import { useEffect } from 'react';
 import "./ScrollSection.css"
 import "../App.css"
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 export default function ScrollSection() {
     useEffect(() => {
         const topicsContainer = document.querySelector(".topics-container");
@@ -59,37 +62,94 @@ export default function ScrollSection() {
                         <h3 className="intro-description ">TCS Wealth Advisory Solution  </h3>
                         <p className="intro-para">Analytics-based recommendation engine that helps financial advisors make informed investments.</p>
                         <a class="learnmore" href="https://www.tcs.com/what-we-do/industries/banking/solution/customer-experience-management-suite-for-bfsi-industry">Learn More<i class="fa-solid fa-circle-arrow-right"></i></a>
-                        
+
                         <h3 className="intro-description para_itemHide"></h3>
                         <p className="intro-para para_itemHide"></p>
                         <a class="learnmore para_itemHide" href="https://www.tcs.com/what-we-do">Learn More<i class="fa-solid fa-circle-arrow-right"></i></a>
-                      
-                        
+
+
                     </div>
                     <div className="para_items" id="topic2">
-                    <h2 className='intro-heading text-uppercase mb-3'>our solutions</h2>
+                        <h2 className='intro-heading text-uppercase mb-3'>our solutions</h2>
                         <h3 className="intro-description ">Cognitive assurance for risk and compliance </h3>
                         <p className="intro-para">A suite of solutions to drive intelligent interventions in risk information and control assurance</p>
                         <a class="learnmore" href="https://www.tcs.com/what-we-do/industries/banking/solution/bfsi-cro-cognitive-assurance-for-risk-and-compliance">Learn More<i class="fa-solid fa-circle-arrow-right"></i></a>
-                       
+
                         <h3 className="intro-description ">Early warning framework for risk management </h3>
                         <p className="intro-para ">A machine learning-based framework to track, assess, and manage counterparties’ risks in real time</p>
                         <a class="learnmore " href="https://www.tcs.com/what-we-do/industries/banking/solution/early-warning-framework-for-proactive-risk-management">Learn More<i class="fa-solid fa-circle-arrow-right"></i></a>
-                       
+
                     </div>
                     <div className="para_items" id="topic3">
-                    <h2 className='intro-heading text-uppercase mb-3'>our solutions</h2>
+                        <h2 className='intro-heading text-uppercase mb-3'>our solutions</h2>
                         <h3 className="intro-description ">Financial crime compliance offerings</h3>
                         <p className="intro-para">A range of solutions and services to strengthen defenses against financial crime</p>
                         <a class="learnmore" href="https://www.tcs.com/what-we-do/industries/banking/solution/financial-crime-compliance-offerings">Learn More<i class="fa-solid fa-circle-arrow-right"></i></a>
-                       
+
                         <h3 className="intro-description">Cyber vigilance platform </h3>
                         <p className="intro-para">Analytics-backed managed detection and response services to proactively tackle cyber threats</p>
                         <a class="learnmore" href="https://www.tcs.com/what-we-do/services/cybersecurity/solution/cyber-vigilance-vulnerability-incident-response">Learn More<i class="fa-solid fa-circle-arrow-right"></i></a>
-                        
+
                     </div>
                 </div>
             </div>
-        </div>  
+
+            <div className="mobscrollcarousel">
+                <h3 className="topics-container-heading text-uppercase">
+                    your challenge
+                </h3>
+                <OwlCarousel className="owl-theme " dots={false} items={1} nav>
+                    <div className="item">
+                        <li className="topics highlight_li"><a href="#topic1"><span className="d-block mb-2 tab-list-no highlight_span">01</span><p className="topicname">Reimagining the banking experience</p></a></li>
+                        <div className="mobpara">
+                            <div className="para_items" id="topic1">
+                                <h2 className='intro-heading text-uppercase mb-3'>our solutions</h2>
+                                <h3 className="intro-description ">TCS Wealth Advisory Solution  </h3>
+                                <p className="intro-para">Analytics-based recommendation engine that helps financial advisors make informed investments.</p>
+                                <a class="learnmore" href="https://www.tcs.com/what-we-do/industries/banking/solution/customer-experience-management-suite-for-bfsi-industry">Learn More<i class="fa-solid fa-circle-arrow-right"></i></a>
+
+                                <h3 className="intro-description para_itemHide"></h3>
+                                <p className="intro-para para_itemHide"></p>
+                                <a class="learnmore para_itemHide" href="https://www.tcs.com/what-we-do">Learn More<i class="fa-solid fa-circle-arrow-right"></i></a>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div className="item">
+                        <li className="topics highlight_li"><a href="#topic2"><span className="d-block mb-2 tab-list-no highlight_span">02</span><p className="topicname">Preempting and mitigating risk</p></a></li>
+                        <div className="mobpara">
+                            <div className="para_items" id="topic2">
+                                <h2 className='intro-heading text-uppercase mb-3'>our solutions</h2>
+                                <h3 className="intro-description ">Cognitive assurance for risk and compliance </h3>
+                                <p className="intro-para">A suite of solutions to drive intelligent interventions in risk information and control assurance</p>
+                                <a class="learnmore" href="https://www.tcs.com/what-we-do/industries/banking/solution/bfsi-cro-cognitive-assurance-for-risk-and-compliance">Learn More<i class="fa-solid fa-circle-arrow-right"></i></a>
+
+                                <h3 className="intro-description ">Early warning framework for risk management </h3>
+                                <p className="intro-para ">A machine learning-based framework to track, assess, and manage counterparties’ risks in real time</p>
+                                <a class="learnmore " href="https://www.tcs.com/what-we-do/industries/banking/solution/early-warning-framework-for-proactive-risk-management">Learn More<i class="fa-solid fa-circle-arrow-right"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div className="item">
+                        <li className="topics highlight_li"><a href="#topic3"><span className="d-block mb-2 tab-list-no highlight_span">03</span><p className="topicname">Battling financial crime in a digital-first world</p></a></li>
+                        <div className="para_items" id="topic3">
+                            <h2 className='intro-heading text-uppercase mb-3'>our solutions</h2>
+                            <h3 className="intro-description ">Financial crime compliance offerings</h3>
+                            <p className="intro-para">A range of solutions and services to strengthen defenses against financial crime</p>
+                            <a class="learnmore" href="https://www.tcs.com/what-we-do/industries/banking/solution/financial-crime-compliance-offerings">Learn More<i class="fa-solid fa-circle-arrow-right"></i></a>
+
+                            <h3 className="intro-description">Cyber vigilance platform </h3>
+                            <p className="intro-para">Analytics-backed managed detection and response services to proactively tackle cyber threats</p>
+                            <a class="learnmore" href="https://www.tcs.com/what-we-do/services/cybersecurity/solution/cyber-vigilance-vulnerability-incident-response">Learn More<i class="fa-solid fa-circle-arrow-right"></i></a>
+
+                        </div>
+                    </div>
+                </OwlCarousel>
+            </div>
+        </div>
+
+
     )
 }
