@@ -6,11 +6,15 @@ import InFocus from './InFocus'
 import MyAccordianSet from './MyAccordianSet'
 import Review from '../Review'
 import BankingCarousel from './BankingCarousel'
+import ScrollSection from '../ScrollSection'
+import PageDescription from '../PageDescription'
 
 export default function Index() {
   return (
     <div>
      <BankingHero/>
+     <PageDescription/>
+     <ScrollSection/>
      <InFocus/>
      <MyAccordianSet/>
      <Services/>

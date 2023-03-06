@@ -5,11 +5,15 @@ import MyAccordianSet from './MyAccordianSet'
 import Services from '../Overview/Services'
 import Review from '../Review'
 import Transformation from '../Transformation'
+import ScrollSection from '../ScrollSection'
+import PageDescription from '../PageDescription'
 
 export default function index() {
   return (
     <div>
       <CapitalHero/>
+      <PageDescription/>
+     <ScrollSection/>
       <CaptialInFoucs/>
       <MyAccordianSet/>
       <Services/>
