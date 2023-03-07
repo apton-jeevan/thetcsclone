@@ -166,7 +166,7 @@ export default function Services() {
 
             {/* <!-- Button with no color and outline --> */}
             <div className=" row justify-content-center">
-            <button type="button" class=" btn btn-outline-secondary services_button" onClick={ServicesToggle}>{servicesBtnContent}
+            <button type="button" class=" btn btn-outline-secondary services_button noHover" onClick={ServicesToggle}>{servicesBtnContent}
             <i className={`fa-solid fa-arrow-${dir}`}></i>
             </button> 
             </div>

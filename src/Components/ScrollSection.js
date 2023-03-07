@@ -134,16 +134,18 @@ export default function ScrollSection() {
                     </div>
                     <div className="item">
                         <li className="topics highlight_li"><a href="#topic3"><span className="d-block mb-2 tab-list-no highlight_span">03</span><p className="topicname">Battling financial crime in a digital-first world</p></a></li>
-                        <div className="para_items" id="topic3">
-                            <h2 className='intro-heading text-uppercase mb-3'>our solutions</h2>
-                            <h3 className="intro-description ">Financial crime compliance offerings</h3>
-                            <p className="intro-para">A range of solutions and services to strengthen defenses against financial crime</p>
-                            <a class="learnmore" href="https://www.tcs.com/what-we-do/industries/banking/solution/financial-crime-compliance-offerings">Learn More<i class="fa-solid fa-circle-arrow-right"></i></a>
+                        <div className="mobpara">
+                            <div className="para_items" id="topic3">
+                                <h2 className='intro-heading text-uppercase mb-3'>our solutions</h2>
+                                <h3 className="intro-description ">Financial crime compliance offerings</h3>
+                                <p className="intro-para">A range of solutions and services to strengthen defenses against financial crime</p>
+                                <a class="learnmore" href="https://www.tcs.com/what-we-do/industries/banking/solution/financial-crime-compliance-offerings">Learn More<i class="fa-solid fa-circle-arrow-right"></i></a>
 
-                            <h3 className="intro-description">Cyber vigilance platform </h3>
-                            <p className="intro-para">Analytics-backed managed detection and response services to proactively tackle cyber threats</p>
-                            <a class="learnmore" href="https://www.tcs.com/what-we-do/services/cybersecurity/solution/cyber-vigilance-vulnerability-incident-response">Learn More<i class="fa-solid fa-circle-arrow-right"></i></a>
+                                <h3 className="intro-description">Cyber vigilance platform </h3>
+                                <p className="intro-para">Analytics-backed managed detection and response services to proactively tackle cyber threats</p>
+                                <a class="learnmore" href="https://www.tcs.com/what-we-do/services/cybersecurity/solution/cyber-vigilance-vulnerability-incident-response">Learn More<i class="fa-solid fa-circle-arrow-right"></i></a>
 
+                            </div>
                         </div>
                     </div>
                 </OwlCarousel>

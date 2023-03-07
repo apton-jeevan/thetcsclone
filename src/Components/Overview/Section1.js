@@ -7,7 +7,7 @@ export default function Section1() {
                 <div className="row justify-content-center align-items-center">
                     <div className="col-md-5">
                         <h1>Belief Powers Business</h1>
-                        <p>At TCS, we go beyond helping businesses transform through technology. We help them make a meaningful difference; to their customers, and to the communities they serve.</p>
+                        <p><b>At TCS, we go beyond helping businesses transform through technology. We help them make a meaningful difference; to their customers, and to the communities they serve.</b></p>
                     </div>
                     <div className="col-md-1"></div>
                     <div className="col-md-6">

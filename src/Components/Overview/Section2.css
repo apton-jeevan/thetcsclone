@@ -17,15 +17,23 @@
     padding-bottom: 10px;
 
 }
+.section2_icon{
+    display: inline-block;
+    width:30px;
+}
 .industry-title{
     color: black;
     font-size: 20px;
     font-weight: 400;
 }
 .industry-icon{
-    color: #007bff;
+    color:#007dc5;
     padding-right: 10px;
 }
 .industry-arrow{
     float:right ;
+    transition: transform 0.5s;
+}
+.industry-links:hover .industry-arrow{
+    transform: translatex(50%)
 }

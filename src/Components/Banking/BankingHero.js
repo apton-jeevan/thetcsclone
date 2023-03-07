@@ -7,7 +7,7 @@ export default function BankingHero() {
         <div className='bankingHero'>
             <div className="container">
                 <div className="bankingHeroContent">
-                    <p className='head'>Industries/Banking</p>
+                    <p className='head text-uppercase'>Industries/Banking</p>
                     <div className="bankingHeroText col-md-12 col-lg-12 col-xl-5">
                         <h1>Banks go boundaryless</h1>
                         <p className='para'>We help you drive holistic growth with a secure, boundaryless, and humane approach.</p>
