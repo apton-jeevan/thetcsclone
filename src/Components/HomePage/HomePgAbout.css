@@ -1,22 +1,21 @@
 /* why we do */
 .whoweare {
     background-color: white;
-    height: 572px;
-    background-image: url("https://s7ap1.scene7.com/is/image/TCSCOMprod/who-we-are-story-home?wid=2700&hei=1983&dpr=off");
-    background-repeat: no-repeat;
-    background-position-x: left;
+    background-image:url("https://s7ap1.scene7.com/is/image/TCSCOMprod/who-we-are-story-home?wid=1400&hei=1029&dpr=off");
+    background-repeat:no-repeat;
+    background-position:left;
     margin-top: 60px;
     margin-bottom: 60px;
+    background-size: 70%;
 
+}
+
+.whoweare .outercontent {
+    height:532px;
 }
 
 .whoweare .content {
     background-color: white;
-    height: 436px;
-}
-
-.whoweare .outercontent {
-    height: 572px;
 }
 
 .whoweare .text {
@@ -34,7 +33,7 @@
 }
 
 .mytextbox .myheading1 {
-    font-family: Houschka-medium;
+    font-family: "Houschka Pro Medium";
     font-size: 2.5rem;
     line-height: 2.5rem;
     color: #b03c00;
@@ -42,7 +41,6 @@
 }
 
 .mytextbox .para {
-    font-family: Basis-regular;
     font-size: 1.125rem;
     line-height: 2rem;
     letter-spacing: .03125rem;
@@ -53,7 +51,7 @@
 }
 
 .mytextbox .gettoknow {
-    font-family: Basis-medium;
+    font-family: "Basis Grotesque Pro";
     font-size: 1.125rem;
     line-height: 2rem;
     letter-spacing: .03125rem;
@@ -130,26 +128,25 @@
 /* what we do */
 .whatwedo {
     background-color: white;
-    height: 572px;
     background-image: url("https://s7ap1.scene7.com/is/image/TCSCOMprod/what-we-do-story-home?wid=1400&hei=1029&dpr=off");
     background-repeat: no-repeat;
     background-position-x: right;
     margin-top: 60px;
     margin-bottom: 60px;
+    background-size: 70%;
 
 }
-
+.whatwedo .outercontent {
+    height:532px;
+    
+}
 .whatwedo .content {
     background-color: white;
-    height: 436px;
 }
 
-.whatwedo .outercontent {
-    height: 572px;
-}
 
 .whatwedo .text {
-    height: 436px;
+
 }
 
 .mytextbox .myheading {
@@ -204,4 +201,35 @@
         font-size: 15px;
         line-height: 1rem;
     }
+}
+.formob{
+    display:none
+}
+@media screen and (max-width: 1200px) {
+    .whatwedo,.whoweare{
+        background-size: 100%;
+        background-position:center;
+        position: relative;
+
+    }
+    .whoweare .outercontent ,.whatwedo .outercontent{
+        height:300px;
+    }
+   .whatwedo .content{
+        position:absolute;
+        left:0%;
+        bottom:-60%;
+        z-index:3
+    }
+    .whoweare .content{
+        position:absolute;
+        left:0%;
+        bottom:-90%;
+        z-index:3
+    }
+   .formobwhat{
+    display:block;
+    height:190px
+   }
+    
 }

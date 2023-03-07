@@ -34,10 +34,10 @@ export default function HomePgAbout() {
     <div>
 
       {/* who we are */}
-      <div className="whoweare  container1">
+      <div className="whoweare container1">
         <div className="row align-items-center justify-content-end outercontent">
-          <div className="content col-xl-6">
-            <div className="text row align-items-center ">
+          <div className="content col-11 col-sm-11 col-md-11 col-lg-9 col-xl-6">
+            <div className="text row ">
               <div className="mytextbox">
                 <p className="myheading">Who We Are</p>
                 <h3 className="myheading1">We build greater futures through innovation and <br></br>collective knowledge.</h3>
@@ -52,6 +52,7 @@ export default function HomePgAbout() {
         </div>
 
       </div>
+      
       {/* whoweare*/}
 
 
@@ -68,10 +69,11 @@ export default function HomePgAbout() {
 
 
       {/* what/why we do */}
+
       <div className="whatwedo container1">
-        <div className="row align-items-center justify-content-start outercontent">
-          <div className="content col-xl-6">
-            <div className="text row align-items-center ">
+        <div className="row align-items-center outercontent">
+          <div className="content col-11 col-sm-11 col-md-11 col-lg-9 col-xl-6">
+            <div className="text row">
               <div className="mytextbox">
                 <p className="myheading">What we do</p>
                 <h3 className="myheading1">TCS transforms businesses through<br></br>technology.</h3>
@@ -84,8 +86,13 @@ export default function HomePgAbout() {
             </div>
           </div>
         </div>
-
       </div>
+     <div className="formobwhat">
+
+     </div>
+
+
+
       {/* //what/whywedo */}
 
 

@@ -1,56 +1,67 @@
-.discovertcs{
+.discovertcs {
     background-color: black;
-    padding-bottom:15vw;
-    padding-top:5vw;
-    color:white;    
-}
-.discovertcs .row1{
-    margin-bottom:30px  
+    padding-bottom: 15vw;
+    padding-top: 5vw;
+    color: white;
+    padding-left: 6vw;
+    padding-right: 6vw;
 }
 
-.carousel img{
-    transition: transform 3s; 
-  
+.discovertcs .row1 {
+    margin-bottom: 30px
 }
+
+.carousel img {
+    transition: transform 3s;
+
+}
+
 .carousel img:hover {
-transform: scale(1.03); /* Scale the image on hover using transform property */
-} 
+    transform: scale(1.03);
+    /* Scale the image on hover using transform property */
+}
 
-.containerpadleft20{
+.containerpadleft20 {
     padding-left: 25%;
 }
-.scaledcarousel{
+
+.scaledcarousel {
     position: relative;
 }
-.scaledcarousel .row2{
-    position:absolute;
-    top:25%;
-    left:14%
+
+.scaledcarousel .row2 {
+    position: absolute;
+    top: 25%;
+    left: 14%
 }
-.carousel .brdr{
-    border:1px solid white;
-    width:20%
+
+.carousel .brdr {
+    border: 1px solid white;
+    width: 20%
 }
 
 .scaledcarousel .owl-nav button.owl-prev {
     position: absolute;
-    top:45%;
-    left:5%;
+    
+    left: 5%;
     font-size: 40px;
 }
 
 .scaledcarousel .owl-nav button.owl-next {
-    position:absolute;
-    top:45%;
-    right:5%;
+    position: absolute;
+    
+    right: 5%;
     font-size: 40px;
 }
+
 .discovertcs .contentOnHover .mytext {
     display: block;
 }
+
 .discovertcs.contentOnHover:hover img {
     opacity: 1;
 }
+
 .discovertcs .contentOnHover {
     position: relative;
 }
@@ -60,23 +71,46 @@ transform: scale(1.03); /* Scale the image on hover using transform property */
     top: 20%;
     left: 15%;
 }
+
 .discovertcs .contentOnHover .mytext h5 {
     font-size: 2rem;
     line-height: 40px;
     color: #fff;
     margin-bottom: 2.25rem;
     font-family: "Houschka Pro Medium";
-    
+
 }
-.discovertcs .myherobutton {
-    background: linear-gradient(102.57deg, #dc0916, #f41fd6 100%, #f41fd6 0);
-    border-radius: 6.25rem;
-    font-size: 16px;
-    color: #fff;
+
+.discovertcs .myherobutton{
+    background-color: transparent;
+    width: fit-content;
+    font-family: "Basis Grotesque Pro";
+    font-size: 1.125rem;
+    line-height: 2rem;
     letter-spacing: .03125rem;
-    padding: 9pt 2pc;
-    -webkit-transition: all .5s;
-    transition: all .5s;
-    width: auto;
+    color: #fff;
+    border: 1.5px solid #b4b4b8;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 75pt;    
+}
+.discovertcs .myherobutton:hover a{
+    color:white
+
+}
+
+@media screen and (max-width: 1200px) {
+    .discovertcs .contentOnHover .mytext {
+        left: 2%
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .discovertcs .contentOnHover .mytext h5 {
+        font-size: 1.5rem;
+        line-height: 25px;
+        margin-bottom: 1.5rem;
+    }
+  
 
 }
