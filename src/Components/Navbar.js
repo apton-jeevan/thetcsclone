@@ -147,6 +147,7 @@ export default function Navbar() {
                   <header className="changemega"><a href="https://www.tcs.com/what-we-do.html#industries" >Industries
                   </a><i className="fa-solid fa-greater-than"></i>
                   </header>
+
                   <header className="changemega"><a href="https://www.tcs.com/what-we-do.html#services" >Services
 
                   </a><i className="fa-solid fa-greater-than"></i></header>
@@ -626,6 +627,9 @@ export default function Navbar() {
             <span className="navbar-text">
               <a href="https://www.tcs.com/who-we-are/worldwide">TCS Worldwide</a>
             </span>
+            <span className='nav_search'>
+              <i className="fa-solid fa-magnifying-glass"></i>
+            </span>
 
             <span className="navbar-text py-0 tcs-white-logo">
               <a href="https://www.tata.com/" target="_blank" title="tata.com"><img src="https://www.tcs.com/content/dam/global-tcs/en/images/home/logo-tata.svg" alt="tata.com" /><span className="sr-only">tata.com</span></a>
@@ -683,7 +687,7 @@ Copy code
                       <a className="nav-link" href="#link1b" data-bs-toggle="collapse">Industries</a>
                       <div id="link1b" className="collapse">
                         <Link className="innernav-content" to="/industries/banking">Banking</Link>
-                        <Link className="innernav-content"to="/industries/capitalmarkets" >Capital Markets</Link>
+                        <Link className="innernav-content" to="/industries/capitalmarkets" >Capital Markets</Link>
                         <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/consumer-goods-distribution">Consumer Goods and Distribution</a>
                         <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/communications-media-information-services">Communications, Media, and Information Services</a>
                         <a className="innernav-content" href="https://www.tcs.com/what-we-do/industries/education">Education</a>
@@ -701,15 +705,15 @@ Copy code
                     <li className="nav-item inner-nav-item">
                       <a className="nav-link" href="#link1c" data-bs-toggle="collapse">Services</a>
                       <div id="link1c" className="collapse">
-                        <a  className="innernav-content" href="https://www.tcs.com/what-we-do/services/cloud">Cloud</a>
-                        <a  className="innernav-content" href="https://www.tcs.com/what-we-do/services/cognitive-business-operations">Cognitive Business Operations</a>
-                        <a  className="innernav-content" href="https://www.tcs.com/what-we-do/services/consulting">Consulting</a>
-                        <a  className="innernav-content" href="https://www.tcs.com/what-we-do/services/cybersecurity">Cybersecurity</a>
-                        <a  className="innernav-content" href="https://www.tcs.com/what-we-do/services/data-and-analytics">Data and Analytics</a>
-                        <a  className="innernav-content" href="https://www.tcs.com/what-we-do/services/enterprise-solutions">Enterprise Solutions</a>
-                        <a  className="innernav-content" href="https://www.tcs.com/what-we-do/services/iot-digital-engineering">IoT and Digital Engineering</a>
-                        <a  className="innernav-content" href="https://www.tcs.com/what-we-do/services/tcs-interactive">TCS Interactive</a>
-                        <a  className="innernav-content" href="https://www.tcs.com/what-we-do/services/sustainability-services">Sustainability Services</a>
+                        <a className="innernav-content" href="https://www.tcs.com/what-we-do/services/cloud">Cloud</a>
+                        <a className="innernav-content" href="https://www.tcs.com/what-we-do/services/cognitive-business-operations">Cognitive Business Operations</a>
+                        <a className="innernav-content" href="https://www.tcs.com/what-we-do/services/consulting">Consulting</a>
+                        <a className="innernav-content" href="https://www.tcs.com/what-we-do/services/cybersecurity">Cybersecurity</a>
+                        <a className="innernav-content" href="https://www.tcs.com/what-we-do/services/data-and-analytics">Data and Analytics</a>
+                        <a className="innernav-content" href="https://www.tcs.com/what-we-do/services/enterprise-solutions">Enterprise Solutions</a>
+                        <a className="innernav-content" href="https://www.tcs.com/what-we-do/services/iot-digital-engineering">IoT and Digital Engineering</a>
+                        <a className="innernav-content" href="https://www.tcs.com/what-we-do/services/tcs-interactive">TCS Interactive</a>
+                        <a className="innernav-content" href="https://www.tcs.com/what-we-do/services/sustainability-services">Sustainability Services</a>
                       </div>
                     </li>
                     <li className="nav-item inner-nav-item">
@@ -767,10 +771,16 @@ Copy code
                   </div>
                 </li>
               </ul>
-              {/* <form className="d-flex mt-3" role="search">
-          <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button className="btn btn-success" type="submit">Search</button>
-        </form> */}
+              <div className="rightNavLinks mobrightnavlinks">
+                <span>
+                  <a href="https://www.tcs.com/contact-us/whats-on-your-mind">Contact us</a>
+                </span>
+
+
+                <span>
+                  <a href="https://www.tcs.com/who-we-are/worldwide">TCS Worldwide</a>
+                </span>
+              </div>
             </div>
           </div>
         </div>
