@@ -23,17 +23,21 @@
     flex-direction: column;
     cursor: pointer;
     width: 377.5px;
-    /* height: 396px; */
+    height: 396px;
     gap: 12px;
   }
   
   .beliefCard img{
-    height: 280px !important;
+    /* height: 280px !important; */
     object-fit: cover;
+    transition: all 1s ease-in-out;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
   }
   
   .beliefCard img:hover{
     transform: scale(1.02); 
+    
   }
   
   .beliefCard h1{

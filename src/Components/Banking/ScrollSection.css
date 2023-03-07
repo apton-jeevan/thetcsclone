@@ -141,6 +141,8 @@
 .mobscrollcarousel{
     display:none;
 }
+
+
 @media screen and (max-width:1200px) {
     .scrollsection-innercontainer{
         display:none;

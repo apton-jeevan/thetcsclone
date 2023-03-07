@@ -1,13 +1,13 @@
 import React from 'react'
 import "./PageDescription.css"
 
-export default function PageDescription() {
+export default function PageDescription(props) {
     return (
         <div>
             <div className="container pageDescription">
-                <h5 className="title">BANKING</h5>
-                <h5 className="heading">Banking on innovation</h5>
-                <p className="para">Banking is moving beyond banks. As banking services become embedded in other sectors, firms are pushing their traditional boundaries to build cross-industry ecosystems and create value at every stage of the customer journey. This boundaryless model, supported by the right intelligence, helps create innovative offerings and experiences. And a humane approach to banking—based on inclusivity and sustainability—drives holistic growth. </p>
+                <h5 className="title">{props.title}</h5>
+                <h5 className="heading">{props.heading}</h5>
+                <p className="para">{props.para}</p>
                 <hr></hr>
             </div>
         </div>
