@@ -658,11 +658,20 @@ Copy code
 
       <nav className="myMobNav navbar navbar-dark bg-dark sticky-top">
         <div className="container-fluid">
-          <Link to="/" ><img className="brand-logo-img" src="https://www.tcs.com/content/dam/global-tcs/en/images/home/dark-theme.svg" alt="Tata Consultancy Services" title="Tata Consultancy Services" /></Link>
-
           <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
             <span className="navbar-toggler-icon"></span>
           </button>
+          <div>
+            <Link to="/" ><img className="brand-logo-img" src="https://www.tcs.com/content/dam/global-tcs/en/images/home/dark-theme.svg" alt="Tata Consultancy Services" title="Tata Consultancy Services" /></Link>
+            <span className="navbar-text py-0 tcs-white-logo">
+              <a href="https://www.tata.com/" target="_blank" title="tata.com"><img src="https://www.tcs.com/content/dam/global-tcs/en/images/home/logo-tata.svg" alt="tata.com" /><span className="sr-only">tata.com</span></a>
+            </span>
+          </div>
+          <span className='nav_search'>
+            <i className="fa-solid fa-magnifying-glass"></i>
+          </span>
+
+
           <div className="offcanvas offcanvas-start text-bg-dark" tabIndex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
             <div className="offcanvas-header">
               <Link to="/" ><img className="brand-logo-img" src="https://www.tcs.com/content/dam/global-tcs/en/images/home/dark-theme.svg" alt="Tata Consultancy Services" title="Tata Consultancy Services" /></Link>
