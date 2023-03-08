@@ -117,7 +117,7 @@ export default function HeroSection() {
                                             </div>
                                         </div>
                                     </div>
-                                    <img src={data.imgurl} style={{minHeight:"400px",minWidth:"500px"}}></img>
+                                    <img src={data.imgurl} style={{minHeight:"300px",minWidth:"450px"}}></img>
 
                                 </div>
 
