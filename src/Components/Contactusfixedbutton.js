@@ -3,9 +3,9 @@ import "./Contactusfixedbutton.css"
 import { useEffect } from 'react';
 
 export default function Contactusfixedbutton() {
+    
+    useEffect(() => {
     let slideButton = document.querySelector('.slide-button');
-
-useEffect(() => {
     window.addEventListener('scroll', function() {
         if (window.pageYOffset > 0) {
           slideButton.classList.add('out');
@@ -15,7 +15,7 @@ useEffect(() => {
           slideButton.classList.remove('out');
         }
       });
-}, [])
+})
 
 
 
