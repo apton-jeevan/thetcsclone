@@ -90,3 +90,24 @@
         font-size: 1rem;
     }
   }
+
+  .accordion-button::after {
+    content: '-';
+    font-size: 2.25rem;
+    float: right;
+    color:black;
+    background-image: none;
+  }
+    
+
+  .accordion-button.collapsed::after {
+    content: '+';
+    font-size: 2.25rem;
+    float: right;
+    color:black;
+    background-image: none;/* for making down arrow none */
+  }
+  /* for making up arrow none */
+  .accordion-button:not(.collapsed)::after{
+    background-image:none; 
+  }

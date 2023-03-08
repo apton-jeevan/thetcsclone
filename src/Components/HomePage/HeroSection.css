@@ -13,15 +13,18 @@
 .herosection .item {
     position: relative;
 }
+
 .item .bookonimg{
-    color:black;
+    display: inline-block;
+    color: white;
+    background-color: black;
     position: absolute;
-    top:90%;
-    right:5%
+    top: 90%;
+    right: 4%;
+    height: 30px;
+    width: 39px;
 }
-.item .bookonimg:hover{
-    display: none;
-}
+
 
 .herosection .heroContent {
     position: absolute;
@@ -68,6 +71,7 @@
 .btntext {
     text-decoration: none;
     color: white;
+    font-family: "Basis Grotesque Pro";
 }
 .btntext:hover {
     text-decoration: none;
@@ -114,6 +118,10 @@ cursor: pointer;
 .herosection .item:hover img {
     transform: scale(1.15);
     opacity: 0.5;
+}
+
+.herosection .item:hover .bookonimg {
+    display:none;
 }
 
 /* swiper */
@@ -170,7 +178,7 @@ display: none !important;
     z-index: 10;
     width: 100%;
     height: 100%;
-    stroke-width: 4px;
+    stroke-width: 1.5px;
     stroke: rgb(228, 17, 101);
     fill: none;
     stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
