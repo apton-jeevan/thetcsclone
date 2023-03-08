@@ -10,7 +10,7 @@ export default function Insights() {
       <a key={item.id} className='insightCard' href={item.cardUrl}>
         <img src={item.imgUrl} alt='Insight' />
         <div className="topBtn">{item.topItem}</div>
-        <h1>{item.title}</h1>
+        <h1><b>{item.title}</b></h1>
         <div className="hover-read"><i class="fa-solid fa-book"></i><span>Read More</span></div>
       </a>
     )

@@ -1,1 +1,4 @@
-<button class="btn cta-link-text-btn btn-responsive view-less-btn position-relative color-white">View less</button>
+navText={[
+    '<i class="fa-solid fa-circle-arrow-left"></i>',
+    '<i class="fa-solid fa-circle-arrow-right"></i>'
+  ]}

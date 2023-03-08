@@ -13,6 +13,7 @@
 
 .carousel img {
     transition: transform 3s;
+    max-height: 750px;
 
 }
 

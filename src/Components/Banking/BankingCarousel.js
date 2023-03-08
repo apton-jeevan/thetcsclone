@@ -7,6 +7,7 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import "../../App.css"
 
+
 export default function BankingCarousel() {
     const [isScreen, setIsScreen] = useState(4);    
     //equivalent to media queries this is qrittern for .mytcscarousel
@@ -37,7 +38,10 @@ export default function BankingCarousel() {
     return (
         <div className='recognition container1'>
             <h3 class="text-uppercase heading">RECOGNITION</h3>
-            <OwlCarousel dots={false} margin={15} items={isScreen} nav={true}>
+            <OwlCarousel dots={false} margin={15} items={isScreen} nav={true} navText={[
+    '<i class="fa-solid fa-circle-arrow-left"></i>',
+    '<i class="fa-solid fa-circle-arrow-right"></i>'
+  ]}>
                 <img src="https://www.tcs.com/content/dam/global-tcs/en/images/what-we-do/industries/Banking/acs.jpg/jcr:content/renditions/cq5dam.thumbnail.1280.765.png" alt="The Last of us" />
                 <img src="https://www.tcs.com/content/dam/global-tcs/en/images/what-we-do/industries/Banking/acs1.jpg/jcr:content/renditions/cq5dam.thumbnail.1280.765.png" alt="GTA V" />
                 <img src="https://www.tcs.com/content/dam/global-tcs/en/images/what-we-do/industries/Banking/Quartz%20Fraud%20management.jpg/jcr:content/renditions/cq5dam.thumbnail.1280.765.png" alt="Mirror Edge" />
@@ -46,6 +50,7 @@ export default function BankingCarousel() {
                 <img src="https://www.tcs.com/content/dam/global-tcs/en/images/what-we-do/industries/Banking/quartz-fraud.jpg/jcr:content/renditions/cq5dam.thumbnail.1280.765.png" alt="Mirror Edge" />
                 <img src="https://www.tcs.com/content/dam/global-tcs/en/images/what-we-do/industries/Banking/claim-management.jpg/jcr:content/renditions/cq5dam.thumbnail.1280.765.png" alt="Mirror Edge" />
             </OwlCarousel>
+            
         </div>
     )
 }

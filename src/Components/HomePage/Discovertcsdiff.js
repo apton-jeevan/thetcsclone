@@ -11,15 +11,18 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 
 export default function Discovertcsdiff() {
-   
+
     return (
         <div>
             <div className="discovertcs ">
                 <h2 className="row row1">Discover the TCS difference </h2>
                 <div className="scaledcarousel">
-                    <OwlCarousel  className='owl-theme' dots={false} items={1} nav>
+                    <OwlCarousel className='owl-theme' dots={false} items={1} nav navText={[
+                        '<i class="fa-solid fa-circle-arrow-left"></i>',
+                        '<i class="fa-solid fa-circle-arrow-right"></i>'
+                    ]}>
                         {discoverdata.map((data) => {
-                            return (<div className='item'key={data.id}>
+                            return (<div className='item' key={data.id}>
                                 <div className="carousel" >
                                     <div className="contentOnHover">
                                         <img src={data.imgurl}></img>
