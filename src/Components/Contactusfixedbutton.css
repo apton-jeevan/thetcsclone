@@ -1,7 +1,7 @@
 .button-container {
     position: fixed;
     right: 0%;
-    bottom: 5%;
+    bottom: 1%;
     /* transform: translateY(-50%); */
 }
 
@@ -23,6 +23,7 @@
     padding: 9pt 2pc;
     transition: all .5s;
     width: auto;
+    z-index: 500 !important;
 }
 .slide-button i{
     margin-right:10px;

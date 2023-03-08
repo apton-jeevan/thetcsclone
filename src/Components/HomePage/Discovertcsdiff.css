@@ -13,8 +13,9 @@
 
 .carousel img {
     transition: transform 3s;
-    max-height: 750px;
-
+    max-height:1000px;
+    min-height:1000px
+   
 }
 
 .carousel img:hover {
@@ -43,16 +44,24 @@
 
 .scaledcarousel .owl-nav button.owl-prev {
     position: absolute;
-    
     left: 5%;
-    font-size: 40px;
 }
+.scaledcarousel .owl-nav button.owl-prev i,.scaledcarousel .owl-nav button.owl-next i{
+    font-size:30px;
 
+}
 .scaledcarousel .owl-nav button.owl-next {
     position: absolute;
-    
     right: 5%;
-    font-size: 40px;
+}
+.scaledcarousel .owl-dots .owl-dot span{
+    width: 30px !important;
+    height:2px !important;
+}
+.scaledcarousel .owl-dots .owl-dot.active span{
+    background-color:#e41165!important;
+    width: 30px !important;
+    height:2px !important;
 }
 
 .discovertcs .contentOnHover .mytext {
@@ -105,6 +114,18 @@
         left: 2%
     }
 }
+@media screen and (max-width: 992px) {
+    .carousel img {
+        transition: transform 3s;
+        min-height:600px
+    }
+}
+@media screen and (max-width: 768px) {
+    .carousel img {
+        transition: transform 3s;
+        min-height:500px
+    }
+}
 
 @media screen and (max-width: 600px) {
     .discovertcs .contentOnHover .mytext h5 {
@@ -112,6 +133,29 @@
         line-height: 25px;
         margin-bottom: 1.5rem;
     }
-  
-
+    .carousel img {
+        transition: transform 3s;
+        min-height:400px
+    }
+}
+@media screen and (max-width: 450px) {
+    .scaledcarousel .owl-nav button.owl-prev i,.scaledcarousel .owl-nav button.owl-next i{
+        font-size:20px;
+    
+    }
+    .carousel img {
+        transition: transform 3s;
+        min-height:300px
+    }
+}
+@media screen and (min-width: 1200px) {
+    /* .scaledcarousel .owl-dots .owl-dot span{
+        width: 300px !important;
+        height:300px !important;
+    }
+    .scaledcarousel .owl-dots .owl-dot.active span{
+        background-color:#e41165!important;
+        width: 300px !important;
+        height:300px !important;
+    } */
 }

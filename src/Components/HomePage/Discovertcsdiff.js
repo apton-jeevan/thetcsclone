@@ -17,7 +17,7 @@ export default function Discovertcsdiff() {
             <div className="discovertcs ">
                 <h2 className="row row1">Discover the TCS difference </h2>
                 <div className="scaledcarousel">
-                    <OwlCarousel className='owl-theme' dots={false} items={1} nav navText={[
+                    <OwlCarousel className='owl-theme' dots={true} items={1} nav navText={[
                         '<i class="fa-solid fa-circle-arrow-left"></i>',
                         '<i class="fa-solid fa-circle-arrow-right"></i>'
                     ]}>
@@ -44,6 +44,7 @@ export default function Discovertcsdiff() {
                         })
                         }
                     </OwlCarousel>
+                    
                 </div>
 
             </div>
