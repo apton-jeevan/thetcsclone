@@ -1,0 +1,36 @@
+.button-container {
+    position: fixed;
+    right: 0%;
+    bottom: 0%;
+    transform: translateY(-50%);
+}
+
+.slide-button {
+    font-family: "Basis Grotesque Pro";
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    background: linear-gradient(102.57deg, #dc0916, #f41fd6 100%, #f41fd6 0);
+    border-radius: 6.25rem;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: .03125rem;
+    padding: 9pt 2pc;
+    transition: all .5s;
+    width: auto;
+}
+.slide-button i{
+    margin-right:10px;
+}
+.slide-button.out {
+    transform: translateX(68%);
+}
+
+.slide-button.in {
+    transform: translateX(10%);
+}

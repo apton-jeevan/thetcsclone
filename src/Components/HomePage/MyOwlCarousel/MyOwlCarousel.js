@@ -24,7 +24,7 @@ export default function MyOwlCarousel(props) {
               </div>
 
               <div className="row row3 containerpadleft20">
-                <p><b>Read More</b></p>
+                <p><i class="fa-solid fa-book"></i><b>Read More</b></p>
               </div>
             </div>
 

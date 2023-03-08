@@ -13,6 +13,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import Contactusfixedbutton from "./Components/Contactusfixedbutton";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/industries/banking" element={<Banking/>}></Route>
           <Route path="/industries/capitalmarkets" element={<CapitalMarkets/>}></Route>
         </Routes>
+      <Contactusfixedbutton/>
         <Footer />
         <FooterBase />
       </Router>

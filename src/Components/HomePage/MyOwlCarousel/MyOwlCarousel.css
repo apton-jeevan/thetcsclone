@@ -1,7 +1,17 @@
-.carouselcard img{
-        transition: transform 3s; 
-      
+.carouselcard img {
+        transition: transform 3s;
+
 }
+
 .carouselcard img:hover {
-    transform: scale(1.03); /* Scale the image on hover using transform property */
-  } 
+        transform: scale(1.03);
+        /* Scale the image on hover using transform property */
+}
+
+.carouselcard .row3 {
+ font-family: "Basis Grotesque Pro";
+        
+}
+.carouselcard .row3 i{
+        margin-right:10px
+}
