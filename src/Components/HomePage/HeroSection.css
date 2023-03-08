@@ -13,6 +13,15 @@
 .herosection .item {
     position: relative;
 }
+.item .bookonimg{
+    color:black;
+    position: absolute;
+    top:90%;
+    right:5%
+}
+.item .bookonimg:hover{
+    display: none;
+}
 
 .herosection .heroContent {
     position: absolute;

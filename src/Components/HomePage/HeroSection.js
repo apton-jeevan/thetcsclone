@@ -100,6 +100,7 @@ export default function HeroSection() {
                         return (
                             <SwiperSlide key={data.heading}>
                                 <div className="item">
+                                <i className="fa-solid fa-book bookonimg"></i>
                                     <div className='heroContent'>
                                         <h2 className="heroheading">{data.heading}</h2>
                                         <div className="contentOnHover">
