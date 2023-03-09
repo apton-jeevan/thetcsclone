@@ -89,6 +89,9 @@
     .accordionItemTitle{
         font-size: 1rem;
     }
+    .myAccordianTitle{
+        font-size:2rem
+    }
   }
 
   .accordion-button::after {

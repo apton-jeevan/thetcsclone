@@ -25,22 +25,27 @@
     color: black;
     font-size: 20px;
     font-weight: 400;
+ 
 }
 .industry-icon{
     color:#007dc5;
     padding-right: 10px;
 }
 .industry-arrow{
-    float:right ;
+    color:black;
     transition: transform 0.5s;
 }
 .industry-links:hover .industry-arrow{
     transform: translatex(50%)
 }
 
-@media only screen and (max-width: 400px) {
-    .industry-title{
-        font-size:16px
-    }
+.theflx{
+    display:flex;
+    justify-content: space-between;
 }
+.thelftflx{
+    width: 80%;
+    display: flex;
+}
+
 

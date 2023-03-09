@@ -8,7 +8,7 @@ export default function MyAccordianSet() {
 
             <div className="myAccordianDescription">
                 <p className="myAccordianHeading">Products and Platforms</p>
-                <p className="myAccordianTitle col-7">Here are the solutions we use to create meaningful futures.</p>
+                <p className="myAccordianTitle col-10 col-md-7">Here are the solutions we use to create meaningful futures.</p>
             </div>
 
             <div className="myaccordian">
