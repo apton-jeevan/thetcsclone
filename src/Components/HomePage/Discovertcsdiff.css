@@ -14,8 +14,7 @@
 
 .carousel img {
     transition: transform 3s;
-    max-height: 1000px;
-    min-height: 1000px
+   
 }
 
 .carousel img:hover {

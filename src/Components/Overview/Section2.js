@@ -11,12 +11,12 @@ export default function Section2() {
 
 
 
-                    <div className="col-lg-6">
+                    <div className="col-xl-6">
 
                         <a href="https://www.tcs.com/what-we-do/industries/banking"
                             className="industry-links">
                             <p className="industry-title">
-                                <span className="industry-icon"><i className="section2_icon fa-solid fa-dollar-sign"></i></span>
+                                <span className="industry-icon "><i className="section2_icon fa-solid fa-dollar-sign "></i></span>
                                 Banking
                                 <span className="industry-arrow"><i className="fa-solid fa-arrow-right"></i></span>
                             </p>
@@ -25,7 +25,7 @@ export default function Section2() {
                     </div>
 
 
-                    <div className="col-lg-6">
+                    <div className="col-xl-6">
 
                         <a href="https://www.tcs.com/what-we-do/industries/capital-markets"
                             className="industry-links">
@@ -37,7 +37,7 @@ export default function Section2() {
                     </div>
 
 
-                    <div className="col-lg-6">
+                    <div className="col-xl-6">
 
                         <a href="https://www.tcs.com/what-we-do/industries/communications-media-information-services"
                             className="industry-links">
@@ -49,7 +49,7 @@ export default function Section2() {
                     </div>
 
 
-                    <div className="col-lg-6">
+                    <div className="col-xl-6">
 
                         <a href="https://www.tcs.com/what-we-do/industries/consumer-goods-distribution"
                             className="industry-links">
@@ -61,7 +61,7 @@ export default function Section2() {
                     </div>
 
 
-                    <div className="col-lg-6">
+                    <div className="col-xl-6">
 
                         <a href="https://www.tcs.com/what-we-do/industries/education"
                             className="industry-links">
@@ -73,7 +73,7 @@ export default function Section2() {
                     </div>
 
 
-                    <div className="col-lg-6">
+                    <div className="col-xl-6">
 
                         <a href="https://www.tcs.com/what-we-do/industries/energy-resources-utilities"
                             className="industry-links">
@@ -86,7 +86,7 @@ export default function Section2() {
                     </div>
 
 
-                    <div className="col-lg-6">
+                    <div className="col-xl-6">
 
                         <a href="https://www.tcs.com/what-we-do/industries/healthcare"
                             className="industry-links">
@@ -98,7 +98,7 @@ export default function Section2() {
                     </div>
 
 
-                    <div className="col-lg-6">
+                    <div className="col-xl-6">
 
                         <a href="https://www.tcs.com/what-we-do/industries/high-tech"
                             className="industry-links">
@@ -110,7 +110,7 @@ export default function Section2() {
                     </div>
 
 
-                    <div className="col-lg-6">
+                    <div className="col-xl-6">
 
                         <a href="https://www.tcs.com/what-we-do/industries/insurance"
                             className="industry-links">
@@ -122,7 +122,7 @@ export default function Section2() {
                     </div>
 
 
-                    <div className="col-lg-6">
+                    <div className="col-xl-6">
 
                         <a href="https://www.tcs.com/what-we-do/industries/life-sciences"
                             className="industry-links">
@@ -134,7 +134,7 @@ export default function Section2() {
                     </div>
 
 
-                    <div className="col-lg-6">
+                    <div className="col-xl-6">
 
                         <a href="https://www.tcs.com/what-we-do/industries/manufacturing"
                             className="industry-links">
@@ -146,7 +146,7 @@ export default function Section2() {
                     </div>
 
 
-                    <div className="col-lg-6">
+                    <div className="col-xl-6">
 
                         <a href="https://www.tcs.com/what-we-do/industries/public-services"
                             className="industry-links">
@@ -158,7 +158,7 @@ export default function Section2() {
                     </div>
 
 
-                    <div className="col-lg-6">
+                    <div className="col-xl-6">
 
                         <a href="https://www.tcs.com/what-we-do/industries/retail"
                             className="industry-links">
@@ -170,7 +170,7 @@ export default function Section2() {
                     </div>
 
 
-                    <div className="col-lg-6">
+                    <div className="col-xl-6">
 
                         <a href="https://www.tcs.com/what-we-do/industries/travel-and-logistics"
                             className="industry-links">

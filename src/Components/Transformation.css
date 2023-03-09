@@ -2,16 +2,22 @@
     background-color: #1e2222;
     color: white;
     border-bottom: 1px solid rgb(98, 98, 98);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+
 .side-img {
-    height: 407px;
+    padding-left: 0px!important;
+    height:407px; 
     overflow: hidden;
 
 }
 
 .transformation img {
     width: 100%;
+    float:left;
 }
 
 .transformation-heading {
@@ -38,6 +44,7 @@
     padding: 9pt 2pc;
 
 }
+
 .transformation-btn:hover {
     text-decoration: none;
     background: linear-gradient(302.57deg, #dc0916, #f41fd6 100%, #f41fd6 0);
@@ -50,20 +57,36 @@
 }
 
 .transformation-btn:hover {
-    color:white;
+    color: white;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
     .side-img {
         display: none;
     }
 
     .transformation {
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left:15px;  
     }
 
     .transformation-heading {
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .transformation-heading {
         font-size: 2.5rem;
+    }
+}
+@media screen and (max-width:600px){
+    .transformation {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .transformation-heading {
+        font-size: 1.5rem;
     }
 }

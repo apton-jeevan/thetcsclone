@@ -10,14 +10,14 @@ export const data = [
         id: 2,
         title: "Cloud adoption in European financial institutions",
         date: "White Paper | 21 Dec 2022",
-        imgUrl: "https://s7ap1.scene7.com/is/image/TCSCOMprod/bank-payment-web?wid=2000&hei=788&dpr=off",
+        imgUrl: "https://s7ap1.scene7.com/is/image/TCSCOMprod/cloud-technologies-adoption-financial-institutions-Web?wid=2000&hei=788&dpr=off",
         cardUrl: "https://www.tcs.com/what-we-do/industries/banking/white-paper/cloud-technologies-adoption-financial-institutions"
     },
     {
         id: 3,
         title: "The new wholesale payments paradigm",
         date: "White Paper | 13 Jan 2023",
-        imgUrl: "https://www.tcs.com/content/dam/global-tcs/en/images/who-we-are/iron-mountain-Web-3840x1512.jpg/jcr:content/renditions/cq5dam.thumbnail.1280.765.png",
+        imgUrl: "https://s7ap1.scene7.com/is/image/TCSCOMprod/bank-payment-web?wid=2000&hei=788&dpr=off",
         cardUrl: "https://www.tcs.com/what-we-do/industries/banking/white-paper/banks-payments-transformation-strategies"
     },
     {

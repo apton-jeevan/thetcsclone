@@ -3,6 +3,7 @@
     padding-left:8vw;
     padding-right:8vw;
     background-color: #f4f3f9;
+  
 }
 .container2 h1{
   color:black;
@@ -16,14 +17,16 @@
     margin-top: 12px;
    
   }
-  
+  ::-webkit-scrollbar {
+    display: none;
+  }
   .beliefCard{
     text-decoration: none;
     display: flex;
     flex-direction: column;
     cursor: pointer;
     width: 377.5px;
-    height: 396px;
+    /* height: 396px; */
     gap: 12px;
   }
   

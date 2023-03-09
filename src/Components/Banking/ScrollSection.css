@@ -199,3 +199,9 @@
         right:30%;
     }
 }
+@media screen and (max-width:600px){
+    .mobscrollcarousel .owl-theme{
+        height:700px;
+    }
+
+}

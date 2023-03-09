@@ -22,7 +22,7 @@
     display: flex;
     flex-direction: column;
     cursor: pointer;
-    width: 377.5px;
+    
     /* height: 396px; */
     gap: 12px;
   }
@@ -30,6 +30,7 @@
   .beliefCard img{
     height: 280px !important;
     object-fit: cover;
+  
   }
   
   .beliefCard img:hover{

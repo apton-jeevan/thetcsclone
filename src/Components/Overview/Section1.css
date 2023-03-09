@@ -1,11 +1,20 @@
-.section1{
+.section1 {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.section1 img{
+
+.section1 img {
     width: 100%;
     height: auto;
 }
-.section1 p{
-    font-size:18px;
+
+.section1 p {
+    font-size: 18px;
+}
+
+.section1 h5 {
+    font-size: 1.125rem !important;
+    line-height:2rem!important;
+    letter-spacing: .5px;
+    font-family: Basis-regular;
 }

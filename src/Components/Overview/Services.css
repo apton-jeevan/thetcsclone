@@ -37,8 +37,8 @@
 
     .servicesCardTitle {
         position: absolute;
-        top: 2%;
-        left: 2%;
+        top: 10%;
+        left: 4%;
         color: white !important;
         font-size: 1.5rem;
         line-height: 2.5rem;
@@ -96,4 +96,17 @@
             line-height: 2rem;
         }
 
+        
+    }
+
+    @media only screen and (max-width: 768px) {
+       
+        .services-card img {
+
+            width: 45vw;
+            height: 45vw;
+            border-radius: 8px;
+        }
+        
+        
     }

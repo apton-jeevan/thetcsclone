@@ -295,4 +295,12 @@
 
     }
 }
+@media screen and (max-width: 1000px) {
+    .herosection .item:hover img {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+}
+
+
 

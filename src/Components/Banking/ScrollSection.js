@@ -9,7 +9,14 @@ export default function ScrollSection() {
     useEffect(() => {
         const topicsContainer = document.querySelector(".topics-container");
         const topicLinks = topicsContainer.querySelectorAll("a");
-
+        // topicLinks.forEach(link => {
+        //     link.addEventListener("click", (event) => {
+        //         event.preventDefault(); // prevent default scrolling behavior
+        //         const target = document.querySelector(link.getAttribute("href"));
+        //         target.scrollIntoView({ behavior: "smooth" }); // manually scroll to the target section
+        //     });
+        // });
+        
         document.querySelector(".paragraph-container").addEventListener("scroll", function () {
             const para_items = this.querySelectorAll(".para_items");
             para_items.forEach(function (item) {

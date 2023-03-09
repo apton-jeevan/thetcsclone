@@ -14,8 +14,8 @@ export default function MyOwlCarousel(props) {
                     ]}>
         {carouseldata.map((data) => {
           return (<div className='item ' key={data.id}>
-            <div className="carouselcard "style={{maxHeight:"550px" ,maxWidth:"450px"}}>
-              <img src={data.imgurl} style={{maxHeight:"500px",maxWidth:"400px"}}></img>
+            <div className="carouselcard "style={{maxHeight:"650px" ,maxWidth:"550px"}}>
+              <img src={data.imgurl} style={{maxHeight:"600px",maxWidth:"500px"}}></img>
 
               <div className="row2 containerpadleft20">
                 <div className="row">

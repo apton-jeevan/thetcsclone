@@ -1,7 +1,18 @@
 .bankingHero {
     background-image: url("https://s7ap1.scene7.com/is/image/TCSCOMprod/banking-hero?wid=2000&hei=1055&dpr=off");
+    animation: scale-background 4s forwards; 
 }
-
+@keyframes scale-background {
+    0% {
+       transform: scale(1.05); /* start at normal size */
+    }
+    50% {
+       transform: scale(1); /* scale up to 120% */
+    }
+    100% {
+       transform: scale(1); /* scale back to normal size */
+    }
+ }
 .bankingHeroContent {
     padding-top: 62px;
 }
