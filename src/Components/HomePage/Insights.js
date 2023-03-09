@@ -11,7 +11,7 @@ export default function Insights() {
         <img src={item.imgUrl} alt='Insight' />
         <div className="topBtn">{item.topItem}</div>
         <h1><b>{item.title}</b></h1>
-        <div className="hover-read"><i class="fa-solid fa-book"></i><span>Read More</span></div>
+        <div className="hover-read"><span class="bookonimg"></span><span>Read More</span></div>
       </a>
     )
   })

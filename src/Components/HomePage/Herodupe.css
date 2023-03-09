@@ -1,0 +1,158 @@
+.container1 {
+    padding-left: 6vw;
+    padding-right: 6vw;
+}
+
+.herosection {
+    background-color: black;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    position: relative;
+}
+
+.herosection .item {
+    position: relative;
+}
+
+.herosection .heroContent {
+    position: absolute;
+
+}
+
+.herosection .heroheading {
+    font-size: 56px;
+    color: #fff;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+
+}
+
+.contentOnHover .mytext {
+    display: none;
+}
+
+.herosection .myherobutton {
+    background: linear-gradient(102.57deg, #dc0916, #f41fd6 100%, #f41fd6 0);
+    border-radius: 6.25rem;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: .03125rem;
+    padding: 9pt 2pc;
+
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    width: auto;
+
+}
+
+.btntext {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.contentOnHover .mytext p {
+    font-size: 24px;
+    line-height: 40px;
+    color: rgb(201, 201, 206);
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.herosection img {
+    padding: 100px 50px 50px 50px;
+    transition: transform .5s;
+
+}
+
+
+.herosection .item:hover .mytext {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    position: relative;
+    z-index: 1;
+    /* set the position to relative */
+
+}
+
+.herosection .item:hover img {
+    transform: scale(1.15);
+    opacity: 0.5;
+}
+
+/* swiper */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: black;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.autoplay-progress {
+    position: absolute;
+    
+    z-index: 10;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    top: 30px;
+    right: 250px;
+    color: white;
+
+
+}
+
+.autoplay-progress svg {
+    --progress: 0;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    stroke-width: 4px;
+    stroke: rgb(228, 17, 101);
+    fill: none;
+    stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+    stroke-dasharray: 125.6;
+    transform: rotate(-90deg);
+}
+
+@media screen and (max-width: 992px) {
+    .herosection .heroheading {
+        font-size: 25px;
+    }
+    .herosection .mytext .title {
+        font-size: 20px;
+    }
+    .herosection .mytext .btntext {
+        font-size: 15px;
+    }
+    .herosection .item:hover img {
+    transform: scale(2);
+    opacity: 0.5;
+}

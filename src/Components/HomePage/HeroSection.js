@@ -72,7 +72,7 @@ export default function HeroSection() {
   
     return (
         <div className="herosection">
-            <div className="container1">
+           
                 <Swiper
                     ref={swiperRef}
                     navigation={{
@@ -84,11 +84,11 @@ export default function HeroSection() {
                     centeredSlides={true}
                     autoplay={{
                         delay: 7000,
-                        disableOnInteraction:false  ,
+                        disableOnInteraction:false,
                     }}
-                    pagination={{
-                        clickable: true,
-                    }}
+                    // pagination={{
+                    //     clickable: true,
+                    // }}
 
                     modules={[Autoplay, Pagination, Navigation]}
                     onAutoplayTimeLeft={onAutoplayTimeLeft}
@@ -99,22 +99,24 @@ export default function HeroSection() {
                     {herodata.map((data) => {
                         return (
                             <SwiperSlide key={data.heading}>
-                                <div className="item">
-                                <i className=" bookonimg fa-solid fa-book "></i>
+                                <div className="item" >
+                                {/* <i className=" bookonimg fa-solid fa-book "></i> */}
+                                <span class="bookonimg"></span>
+
                                     <div className='heroContent'>
                                         <h2 className="heroheading">{data.heading}</h2>
                                         <div className="contentOnHover">
 
                                             <div className="mytext">
-                                                <p className="title">{data.title}</p>
-                                                <button className="myherobutton">
+                                                <p className="title ">{data.title}</p>
+                                                <a className="myherobutton">
                                                     <a
                                                         className="btntext"
                                                         href="https://www.tcs.com/who-we-are/newsroom/press-release/tcs-named-world-most-admired-companies-list-fortune-magazine"
                                                     >
                                                         {data.button}
                                                     </a>
-                                                </button>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -151,7 +153,7 @@ export default function HeroSection() {
                         <span ref={progressContent}></span>
                     </div>
                 </Swiper>
-            </div>
+            
         </div>
 
 

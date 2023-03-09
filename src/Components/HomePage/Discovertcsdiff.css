@@ -7,15 +7,15 @@
     padding-right: 6vw;
 }
 
+
 .discovertcs .row1 {
     margin-bottom: 30px
 }
 
 .carousel img {
     transition: transform 3s;
-    max-height:1000px;
-    min-height:1000px
-   
+    max-height: 1000px;
+    min-height: 1000px
 }
 
 .carousel img:hover {
@@ -46,30 +46,38 @@
     position: absolute;
     left: 5%;
 }
-.scaledcarousel .owl-nav button.owl-prev i,.scaledcarousel .owl-nav button.owl-next i{
-    font-size:30px;
+
+.scaledcarousel .owl-nav button.owl-prev i,
+.scaledcarousel .owl-nav button.owl-next i {
+    font-size: 30px;
 
 }
+
 .scaledcarousel .owl-nav button.owl-next {
     position: absolute;
     right: 5%;
 }
-.scaledcarousel .owl-dots .owl-dot span{
+
+.scaledcarousel .owl-dots .owl-dot span {
     width: 30px !important;
-    height:2px !important;
+    height: 2px !important;
 }
-.scaledcarousel .owl-dots .owl-dot.active span{
-    background-color:#e41165!important;
+
+.scaledcarousel .owl-dots .owl-dot.active span {
+    background-color: #e41165 !important;
     width: 30px !important;
-    height:2px !important;
+    height: 2px !important;
 }
 
 .discovertcs .contentOnHover .mytext {
     display: block;
 }
 
-.discovertcs.contentOnHover:hover img {
-    opacity: 1;
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    opacity: 0.5;
 }
 
 .discovertcs .contentOnHover {
@@ -89,11 +97,12 @@
     margin-bottom: 2.25rem;
     font-family: "Houschka Pro Medium";
 
+
 }
 
-.discovertcs .myherobutton{
+.discovertcs .myherobutton {
     background-color: transparent;
-    width: fit-content;
+    /* width: fit-content; */
     font-family: "Basis Grotesque Pro";
     font-size: 1.125rem;
     line-height: 2rem;
@@ -102,11 +111,21 @@
     border: 1.5px solid #b4b4b8;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    border-radius: 75pt;    
-}
-.discovertcs .myherobutton:hover a{
-    color:white
+    border-radius: 75pt;
+    background: transparent;
+    border-radius: 6.25rem;
+    border: 1px solid #5e6162;
+    font-size: 1.125rem;
+    letter-spacing: .03125rem;
+    padding: 9pt 2pc;
+    -webkit-transition: border .5s;
+    transition: border .5s;
+    border: 1.5px solid #b4b4b8;
 
+}
+
+.discovertcs .myherobutton:hover a {
+    color: white
 }
 
 @media screen and (max-width: 1200px) {
@@ -114,16 +133,18 @@
         left: 2%
     }
 }
+
 @media screen and (max-width: 992px) {
     .carousel img {
         transition: transform 3s;
-        min-height:600px
+        min-height: 600px
     }
 }
+
 @media screen and (max-width: 768px) {
     .carousel img {
         transition: transform 3s;
-        min-height:500px
+        min-height: 500px
     }
 }
 
@@ -133,21 +154,27 @@
         line-height: 25px;
         margin-bottom: 1.5rem;
     }
+
     .carousel img {
         transition: transform 3s;
-        min-height:400px
+        min-height: 400px
     }
 }
+
 @media screen and (max-width: 450px) {
-    .scaledcarousel .owl-nav button.owl-prev i,.scaledcarousel .owl-nav button.owl-next i{
-        font-size:20px;
-    
+
+    .scaledcarousel .owl-nav button.owl-prev i,
+    .scaledcarousel .owl-nav button.owl-next i {
+        font-size: 20px;
+
     }
+
     .carousel img {
         transition: transform 3s;
-        min-height:300px
+        min-height: 300px
     }
 }
+
 @media screen and (min-width: 1200px) {
     /* .scaledcarousel .owl-dots .owl-dot span{
         width: 300px !important;

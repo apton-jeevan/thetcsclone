@@ -1,9 +1,10 @@
 /* container1 is the universal padding for the whole website */
-.container1{
-    padding-left:6vw;
-    padding-right:6vw;
-    
+.container1 {
+  padding-left: 6vw;
+  padding-right: 6vw;
+
 }
+
 /* font-family: "Houschka Pro Medium" */
 @import url(//db.onlinewebfonts.com/c/225646b777438f81ec8400ff378afe2d?family=Houschka+Pro+Medium);
 
@@ -12,13 +13,13 @@
 
 .container1,
 .insightCard a,
- .insightCard h1{
+.insightCard h1 {
   font-family: "Houschka Pro Medium", sans-serif;
-  color:white;
+  color: white;
 }
 
-.myInsight{
-  background-color:black;
+.myInsight {
+  background-color: black;
 }
 
 .insightCard,
@@ -77,6 +78,7 @@
 }
 
 .insightCard .topBtn {
+  text-align: center;
   position: absolute;
   width: auto;
   height: 35px;
@@ -85,6 +87,14 @@
   border-radius: 50px;
   padding: 5px;
   margin: 12px 0 0 12px;
+  font-size: .875rem;
+  line-height: 1pc;
+  letter-spacing: .5px;
+  color: #000;
+  padding: .5rem .75rem;
+  border: 1px solid #5e6162;
+  margin-right: .5rem;
+  background-color: #fff;
 }
 
 .insightCard .hover-read {
@@ -127,8 +137,9 @@
   .insightCardsContainer {
     gap: 12px;
   }
+
   /* Belief card */
-  .beliefCardsContainer{
+  .beliefCardsContainer {
     gap: 12px;
   }
 
@@ -140,8 +151,9 @@
   .insightCardsContainer {
     gap: 12px;
   }
+
   /* Belief card */
-  .beliefCardsContainer{
+  .beliefCardsContainer {
     gap: 12px;
   }
 
@@ -151,39 +163,38 @@
 
 /* Belief Section */
 
-.beliefCardsContainer{
-    display: flex;
-    justify-content: space-between;
-    overflow: auto;
-    height: auto;
-    margin-top: 12px;
-  }
-  
-  .beliefCard{
-    display: flex;
-    flex-direction: column;
-    cursor: pointer;
-    width: 377.5px;
-    /* height: 396px; */
-    gap: 12px;
-  }
-  
-  .beliefCard img{
-    height: 280px !important;
-    object-fit: cover;
-  }
-  
-  .beliefCard img:hover{
-    transform: scale(1.02); 
-  }
-  
-  .beliefCard h1{
-    color: #000;
-    font-size: 24px;
-  }
-  
-  .beliefCard p{
-    font-size: 16px;
-    color: rgb(73, 76, 77);
-  }
-  
+.beliefCardsContainer {
+  display: flex;
+  justify-content: space-between;
+  overflow: auto;
+  height: auto;
+  margin-top: 12px;
+}
+
+.beliefCard {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  width: 377.5px;
+  /* height: 396px; */
+  gap: 12px;
+}
+
+.beliefCard img {
+  height: 280px !important;
+  object-fit: cover;
+}
+
+.beliefCard img:hover {
+  transform: scale(1.02);
+}
+
+.beliefCard h1 {
+  color: #000;
+  font-size: 24px;
+}
+
+.beliefCard p {
+  font-size: 16px;
+  color: rgb(73, 76, 77);
+}

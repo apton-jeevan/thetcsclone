@@ -14,7 +14,7 @@
     position: relative;
 }
 
-.item .bookonimg{
+/* .item .bookonimg{
     display: inline-block;
     color: white;
     background-color: black;
@@ -23,6 +23,26 @@
     right: 4%;
     height: 30px;
     width: 39px;
+} */
+
+.item .bookonimg {
+    background-image: url("https://www.tcs.com/etc.clientlibs/tcs/clientlibs/clientlib-site/resources/images/article-ico-w.svg");
+    background-repeat: no-repeat;
+    display: inline-block;
+    color: white;
+    background-color: black;
+    position: absolute;
+    top: 88%;
+    right: 3.9%;
+    width: 3pc;
+    height: 3pc;
+    background-position: 50% 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-color: #000;
+    content: "";
+    z-index: 2;
 }
 
 
@@ -51,20 +71,24 @@
     color: #fff;
     letter-spacing: .03125rem;
     padding: 9pt 2pc;
-    color:white;
+    color: white;
     -webkit-transition: all .5s;
     transition: all .5s;
     width: auto;
+    text-decoration: none;
+
 
 }
+
 .herosection .myherobutton:hover {
     background: linear-gradient(302.57deg, #dc0916, #f41fd6 100%, #f41fd6 0);
-   
+
 
 }
+
 .herosection .myherobutton a:hover {
     background: linear-gradient(302.57deg, #dc0916, #f41fd6 100%, #f41fd6 0);
-   
+
 
 }
 
@@ -73,22 +97,28 @@
     color: white;
     font-family: "Basis Grotesque Pro";
 }
+
 .btntext:hover {
     text-decoration: none;
     color: white;
 }
 
 
-.mynavbuttons{
+.mynavbuttons {
     position: absolute;
-    bottom:5%; 
-    left:16%;
-    z-index:4;  
-    font-size:30px;   
+    bottom: 5%;
+    left: 16%;
+    z-index: 4;
+    font-size: 30px;
+    color: white;
 }
-.myprev:hover , .mynext:hover , .mypauseplay:hover{
-cursor: pointer;
+
+.myprev:hover,
+.mynext:hover,
+.mypauseplay:hover {
+    cursor: pointer;
 }
+
 .contentOnHover .mytext p {
     font-size: 24px;
     line-height: 40px;
@@ -121,7 +151,7 @@ cursor: pointer;
 }
 
 .herosection .item:hover .bookonimg {
-    display:none;
+    display: none;
 }
 
 /* swiper */
@@ -148,14 +178,16 @@ cursor: pointer;
     height: 100%;
     object-fit: cover;
 }
-.swiper-button-prev,.swiper-button-next{
-display: none !important;
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none !important;
 }
 
 
 .autoplay-progress {
     position: absolute;
-    
+
     z-index: 10;
     width: 100px;
     height: 100px;
@@ -179,10 +211,10 @@ display: none !important;
     width: 100%;
     height: 100%;
     stroke-width: 1.5px;
-    stroke: rgb(228, 17, 101);
+    stroke: red;
     fill: none;
     stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
-    stroke-dasharray: 125.6;
+    stroke-dasharray: 125.6 !important;
     transform: rotate(-90deg);
 }
 
@@ -190,34 +222,79 @@ display: none !important;
     .herosection .heroheading {
         font-size: 25px;
     }
+
     .herosection .mytext .title {
-        font-size: 20px;
+        font-size: 1.5rem;
+        line-height: 40px;
+        color: #c9c9ce;
+        margin-bottom: 2.5rem;
+        font-family: Basis-regular;
+        opacity: 0;
     }
+
     .herosection .mytext .btntext {
         font-size: 15px;
     }
+
     .herosection .item:hover img {
-    transform: scale(2);
-    opacity: 0.5;
-}
+        transform: scale(2);
+        opacity: 0.5;
+    }
 
 }
-@media screen and (max-width: 720px){
-    .container1{
-        padding-left:0;
-        padding-right:0;
+
+@media screen and (max-width: 720px) {
+    .container1 {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
-@media screen and (max-width: 600px){
-    .mynavbuttons{
+
+@media screen and (max-width: 600px) {
+    .mynavbuttons {
         position: absolute;
-        bottom:5%; 
-        left:16%;
-        z-index:4;  
-        font-size:15px;   
+        bottom: 5%;
+        left: 16%;
+        z-index: 4;
+        font-size: 15px;
     }
-    .autoplay-progress{
-        height:50px;
-        width:50px
+
+    .autoplay-progress {
+        height: 50px;
+        width: 50px
     }
 }
+@media screen and (max-width: 1700px) {
+    .item .bookonimg {  
+        top: 87%;
+        right: 3.9%;
+        
+    }
+}
+@media screen and (max-width: 1600px) {
+    .item .bookonimg {  
+        top: 86%;
+        right: 4%;
+        
+    }
+}@media screen and (max-width: 1500px) {
+    .item .bookonimg {  
+        top: 85%;
+        right: 4.1%;
+        
+    }
+}
+@media screen and (max-width: 1400px) {
+    .item .bookonimg {  
+        top: 84%;
+        right: 4.3;
+
+    }
+}
+@media screen and (max-width: 1200px) {
+    .item .bookonimg {  
+        display:none;
+
+    }
+}
+
