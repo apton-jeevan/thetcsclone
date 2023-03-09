@@ -35,20 +35,20 @@
   padding-top: 2rem;
 }
 
-.container1 .insightsTitle {
+.myInsight .insightsTitle {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.container1 .insightsTitle h1 {
+.myInsight .insightsTitle h1 {
   font-size: 2rem;
   font-weight: 500;
   line-height: 2.5rem;
   padding-bottom: 0.5rem;
 }
 
-.container1 .insightsTitle a {
+.myInsight .insightsTitle a {
   border-bottom: 1px solid #fff;
   cursor: pointer;
   height: 1.5625rem;
@@ -101,7 +101,8 @@
   position: absolute;
   padding-left: 12px;
   margin: 0;
-  bottom: 5px;
+  bottom: 1px;
+  left: -8px;
   font-size: 14px;
   display: none;
 }
@@ -112,7 +113,7 @@
 
 /* Mobile Devices */
 @media (max-width: 576px) {
-  .container1 .insightsTitle h1 {
+  .myInsight .insightsTitle h1 {
     width: 176px;
   }
 

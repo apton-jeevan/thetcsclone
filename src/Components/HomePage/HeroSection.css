@@ -222,6 +222,7 @@
 @media screen and (max-width: 992px) {
     .herosection .heroheading {
         font-size: 25px;
+        padding-left:6vw;
     }
 
     .herosection .mytext .title {
@@ -244,12 +245,7 @@
 
 }
 
-@media screen and (max-width: 720px) {
-    .container1 {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
+
 
 @media screen and (max-width: 600px) {
     .mynavbuttons {
@@ -257,7 +253,8 @@
         bottom: 5%;
         left: 16%;
         z-index: 4;
-        font-size: 15px;
+        font-size: 22px;
+       
     }
 
     .autoplay-progress {
@@ -269,7 +266,7 @@
     .item .bookonimg {  
         top: 87%;
         right: 3.9%;
-        
+            
     }
 }
 @media screen and (max-width: 1600px) {

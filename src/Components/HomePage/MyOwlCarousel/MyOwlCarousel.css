@@ -1,5 +1,6 @@
 .carouselcard img {
         transition: transform 1s;
+        filter:brightness(0.6);
 
 }
 
@@ -29,12 +30,16 @@
 
 }
 
-
+.containerpadleft20 {
+        padding-left: 20px;
+    }   
 
 .carouselcard .row3 a {
         text-decoration: none;
         background: linear-gradient(102.57deg, #dc0916, #f41fd6 100%, #f41fd6 0);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        font-weight: 900;
 
 }
+

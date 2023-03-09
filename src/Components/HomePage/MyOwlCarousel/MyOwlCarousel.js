@@ -8,11 +8,14 @@ import React from 'react'
 export default function MyOwlCarousel(props) {
   return (
     <div>
-      <OwlCarousel className='owl-theme' dots={props.dots} margin={props.margin} nav={props.nav} items={props.items}>
+      <OwlCarousel className='owl-theme' dots={props.dots} margin={props.margin} nav={props.nav} items={props.items} navText={[
+                        '<i class="fa-solid fa-circle-arrow-left"></i>',
+                        '<i class="fa-solid fa-circle-arrow-right"></i>'
+                    ]}>
         {carouseldata.map((data) => {
-          return (<div className='item' key={data.id}>
-            <div className="carouselcard" style={{ height: "552px" }}>
-              <img src={data.imgurl} style={{ height: "552px" }}></img>
+          return (<div className='item ' key={data.id}>
+            <div className="carouselcard "style={{maxHeight:"550px" ,maxWidth:"450px"}}>
+              <img src={data.imgurl} style={{maxHeight:"500px",maxWidth:"400px"}}></img>
 
               <div className="row2 containerpadleft20">
                 <div className="row">

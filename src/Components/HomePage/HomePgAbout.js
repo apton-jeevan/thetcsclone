@@ -14,11 +14,15 @@ export default function HomePgAbout() {
         setIsScreen(3);
       }
       if (window.innerWidth < 992) {
-        setIsScreen(1);
-      }
-      else if (window.innerWidth < 1600) {
         setIsScreen(2);
       }
+      if (window.innerWidth < 750) {
+        setIsScreen(1.5);
+      }
+      if (window.innerWidth < 450) {
+        setIsScreen(1);
+      }
+     
 
 
     }
@@ -64,10 +68,9 @@ export default function HomePgAbout() {
 
       {/* //tcs carousel */}
       <div className="mytcscarousel">
-        <div className="container1 carousel_outer ">
+        <div className="container6 carousel_outer ">
           <h2 className="heading">Belief in action</h2>
-
-          <MyOwlCarousel dots={false} margin={15} items={isScreen} nav={true} />
+          <MyOwlCarousel dots={false} margin={15} items={isScreen} nav={true}/>
 
         </div>
       </div>
