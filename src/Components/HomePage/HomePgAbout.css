@@ -11,7 +11,7 @@
 }
 
 .whoweare .outercontent {
-    height:532px;
+    height:750px;
 }
 
 .whoweare .content {
@@ -99,7 +99,8 @@
     color: white;
 }
 
-.mytcscarousel .carouselcard .row2 p {
+.mytcscarousel .carouselcard .row2 
+ {
     font-size: 1.125rem;
     line-height: 2rem;
     letter-spacing: .03125rem;
@@ -138,7 +139,7 @@
 
 }
 .whatwedo .outercontent {
-    height:532px;
+    height:750px;
     
 }
 .whatwedo .content {
@@ -149,7 +150,10 @@
 .whatwedo .text {
 
 }
-
+.mytextbox{
+    padding:4pc;    
+    
+}
 .mytextbox .myheading {
     font-weight: 700;
     font-size: .875rem;
@@ -161,11 +165,12 @@
 }
 
 .mytextbox .myheading1 {
+    
     font-family: "Houschka Pro Medium";
     font-size: 2.5rem;
     line-height: 2.5rem;
     color: #b03c00;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem;  
 }
 
 .mytextbox .para {
@@ -179,6 +184,7 @@
 }
 
 .mytextbox .gettoknow {
+    text-decoration: none;
     font-family: "Basis Grotesque Pro";
     font-size: 25px;
     line-height: 2rem;
@@ -230,7 +236,7 @@
     }
    .formobwhat{
     display:block;
-    height:190px
+    height:200px
    }
     
 }

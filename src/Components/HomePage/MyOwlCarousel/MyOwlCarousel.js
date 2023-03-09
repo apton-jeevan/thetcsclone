@@ -24,7 +24,7 @@ export default function MyOwlCarousel(props) {
               </div>
 
               <div className="row row3 containerpadleft20">
-                <p><i class="fa-solid fa-book"></i><b>Read More</b></p>
+               <a href="https://www.tcs.com/what-we-do/industries/energy-resources-utilities/case-study/final-customer-check-framework-tse-improve-outcome"> <p><span class="bookonimg"></span><b>Read More</b></p> </a>
               </div>
             </div>
 

@@ -9,9 +9,27 @@
 }
 
 .carouselcard .row3 {
- font-family: "Basis Grotesque Pro";
-        
+        font-family: "Basis Grotesque Pro";
+
 }
-.carouselcard .row3 i{
-        margin-right:10px
+
+.carouselcard .row3 .bookonimg {
+
+        margin-right: 10px;
+        background-image: url("https://www.tcs.com/etc.clientlibs/tcs/clientlibs/clientlib-site/resources/images/article-ico-w.svg");
+        background-repeat: no-repeat;
+        display: inline-block;
+        right: -7.1%;
+        width: 14px;
+        height: 16px;
+        background-position: center;
+        position: relative;
+        top: 5px;
+        background-color: #b60e51;
+        color: #b60e51;
+
+}
+.carouselcard .row3 a{
+        text-decoration: none;
+        color:#b60e51;
 }
