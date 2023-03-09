@@ -74,10 +74,8 @@
 }
 
 
-.owl-carousel .owl-item img {
-    display: block;
-    width: 100%;
-    opacity: 0.5;
+.discovertcs .contentOnHover img {
+    opacity: 0.5 !important;
 }
 
 .discovertcs .contentOnHover {

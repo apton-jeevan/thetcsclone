@@ -1,37 +1,40 @@
 .button-container {
     position: fixed;
     right: 0%;
-    bottom: 1%;
+    bottom: 3%;
     /* transform: translateY(-50%); */
 }
 
 .slide-button {
     font-family: "Basis Grotesque Pro";
-    width: 100px;
-    height: 50px;
-    background-color: blue;
     color: white;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
     background: linear-gradient(102.57deg, #dc0916, #f41fd6 100%, #f41fd6 0);
-    border-radius: 6.25rem;
     font-size: 16px;
-    color: #fff;
     letter-spacing: .03125rem;
-    padding: 9pt 2pc;
+    padding: 9pt 1pc;
     transition: all .5s;
     width: auto;
-    z-index: 500 !important;
+    width: 100%;
+    background: #e41165;
+    width: 100%;
+    height: 3.5rem;
+    border-top-left-radius: 3.5rem;
+    border-bottom-left-radius: 3.5rem;
+    z-index: 15 !important;
+    /* text-align: left; */
 }
-.slide-button i{
-    margin-right:10px;
+
+.slide-button img {
+    margin-right: 10px;
 }
+
 .slide-button.out {
-    transform: translateX(68%);
+    transform: translateX(69.5%);
 }
 
 .slide-button.in {
-    transform: translateX(15%);
+    transform: translateX(1%);
 }

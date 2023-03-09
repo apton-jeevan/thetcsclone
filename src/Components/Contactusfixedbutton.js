@@ -22,7 +22,7 @@ export default function Contactusfixedbutton() {
     return (
         <div>
             <div className="button-container">
-                <button className="slide-button"><i class="fa-solid fa-message"></i>Contact Us</button>
+            <a href="https://www.tcs.com/"> <button className="slide-button"><img src="https://www.tcs.com/content/dam/global-tcs/en/images/contact-us/contact-us.png/jcr:content/renditions/cq5dam.thumbnail.1280.765.png"></img>Contact Us</button></a>
             </div>
         </div>
     )

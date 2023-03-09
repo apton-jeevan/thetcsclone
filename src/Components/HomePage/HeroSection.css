@@ -52,7 +52,7 @@
 }
 
 .herosection .heroheading {
-    font-size: 56px;
+    font-size: 62px;
     color: #fff;
     text-align: left;
     position: relative;
@@ -128,7 +128,8 @@
 }
 
 .herosection img {
-    padding: 100px 50px 50px 50px;
+    height:72vh !important;
+    padding: 50px 50px 50px;
     transition: transform .5s;
 
 }
