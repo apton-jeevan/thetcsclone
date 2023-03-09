@@ -137,6 +137,7 @@ export default function Navbar() {
             <div className="megamenu">
               <li className="arrowup">
                 <a className="nav-link" href="https://www.tcs.com/what-we-do">What we do</a>
+                <span class="nav-underline"></span>
                 {/* <span><i className="fa-solid fa-caret-up"></i></span> */}
               </li>
               <div className="megacontent" id="mega_1">
@@ -353,6 +354,7 @@ export default function Navbar() {
               <li className="arrowup">
                 <a className="nav-link" href="https://www.tcs.com/insights">Insights</a>
                 {/* <span><i className="fa-solid fa-caret-up"></i></span> */}
+                <span class="nav-underline"></span>
               </li>
               <div className="megacontent">
                 <div className="leftmega">
@@ -427,6 +429,7 @@ export default function Navbar() {
               <li className="arrowup">
                 <a className="nav-link" href="https://www.tcs.com/careers">Careers</a>
                 {/* <span><i className="fa-solid fa-caret-up"></i></span> */}
+                <span class="nav-underline"></span>
               </li>
               <div className="megacontent">
                 <div className="leftmega">
@@ -684,6 +687,7 @@ Copy code
                   {/* href and id should match. */}
                   {/* also i think className has no effect even if we remove them our accordian will work */}
                   <a className="nav-link active" aria-current="page" href="#link1" data-bs-toggle="collapse">What We Do</a>
+            
                   <div id="link1" className="collapse show">
 
                     <li className="nav-item inner-nav-item">
