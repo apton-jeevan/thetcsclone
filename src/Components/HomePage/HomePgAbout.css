@@ -1,9 +1,9 @@
 /* why we do */
 .whoweare {
     background-color: white;
-    background-image:url("https://s7ap1.scene7.com/is/image/TCSCOMprod/who-we-are-story-home?wid=1400&hei=1029&dpr=off");
-    background-repeat:no-repeat;
-    background-position:left;
+    background-image: url("https://s7ap1.scene7.com/is/image/TCSCOMprod/who-we-are-story-home?wid=1400&hei=1029&dpr=off");
+    background-repeat: no-repeat;
+    background-position: left;
     margin-top: 60px;
     margin-bottom: 60px;
     background-size: 70%;
@@ -11,7 +11,7 @@
 }
 
 .whoweare .outercontent {
-    height:750px;
+    height: 750px;
 }
 
 .whoweare .content {
@@ -30,6 +30,7 @@
     color: #747678;
     margin-bottom: 1.5rem;
     text-transform: uppercase !important;
+    font-family: "Basis Grotesque Pro";
 }
 
 .mytextbox .myheading1 {
@@ -77,7 +78,7 @@
 
 .mytcscarousel .heading {
     margin-bottom: 32px;
-    color:black;
+    color: black;
 }
 
 .mytcscarousel .carouselcard {
@@ -86,8 +87,7 @@
 
 .mytcscarousel .carouselcard .row3 {
     position: absolute;
-    bottom: 2%;
-    color: #e20e44
+    bottom: 2%; 
 }
 
 .mytcscarousel .carouselcard .row2 {
@@ -99,8 +99,7 @@
     color: white;
 }
 
-.mytcscarousel .carouselcard .row2 
- {
+.mytcscarousel .carouselcard .row2 {
     font-size: 1.125rem;
     line-height: 2rem;
     letter-spacing: .03125rem;
@@ -116,17 +115,18 @@
 
 .mytcscarousel .owl-nav button.owl-prev {
     position: absolute;
-    top:38%;
-    left:1%;
+    top: 38%;
+    left: 1%;
     font-size: 40px;
 }
 
 .mytcscarousel .owl-nav button.owl-next {
-    position:absolute;
-    top:38%;
-    right:1%;
+    position: absolute;
+    top: 38%;
+    right: 1%;
     font-size: 40px;
 }
+
 /* what we do */
 .whatwedo {
     background-color: white;
@@ -138,22 +138,24 @@
     background-size: 70%;
 
 }
+
 .whatwedo .outercontent {
-    height:750px;
-    
+    height: 750px;
+
 }
+
 .whatwedo .content {
     background-color: white;
 }
 
 
-.whatwedo .text {
+.whatwedo .text {}
+
+.mytextbox {
+    padding: 4pc;
 
 }
-.mytextbox{
-    padding:4pc;    
-    
-}
+
 .mytextbox .myheading {
     font-weight: 700;
     font-size: .875rem;
@@ -165,12 +167,12 @@
 }
 
 .mytextbox .myheading1 {
-    
+
     font-family: "Houschka Pro Medium";
     font-size: 2.5rem;
     line-height: 2.5rem;
     color: #b03c00;
-    margin-bottom: 1.5rem;  
+    margin-bottom: 1.5rem;
 }
 
 .mytextbox .para {
@@ -209,34 +211,43 @@
         line-height: 1rem;
     }
 }
-.formob{
-    display:none
+
+.formob {
+    display: none
 }
+
 @media screen and (max-width: 1200px) {
-    .whatwedo,.whoweare{
+
+    .whatwedo,
+    .whoweare {
         background-size: 100%;
-        background-position:center;
+        background-position: center;
         position: relative;
 
     }
-    .whoweare .outercontent ,.whatwedo .outercontent{
-        height:300px;
+
+    .whoweare .outercontent,
+    .whatwedo .outercontent {
+        height: 300px;
     }
-   .whatwedo .content{
-        position:absolute;
-        left:0%;
-        bottom:-60%;
-        z-index:3
+
+    .whatwedo .content {
+        position: absolute;
+        left: 0%;
+        bottom: -60%;
+        z-index: 3
     }
-    .whoweare .content{
-        position:absolute;
-        left:0%;
-        bottom:-90%;
-        z-index:3
+
+    .whoweare .content {
+        position: absolute;
+        left: 0%;
+        bottom: -90%;
+        z-index: 3
     }
-   .formobwhat{
-    display:block;
-    height:200px
-   }
-    
+
+    .formobwhat {
+        display: block;
+        height: 200px
+    }
+
 }

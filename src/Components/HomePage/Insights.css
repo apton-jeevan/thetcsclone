@@ -1,15 +1,24 @@
-.insightCard .hover-read span {
+.insightCard .hover-read a b{
+    text-decoration: none;
     font-family: "Basis Grotesque Pro";
-    color: #b60e51;
     font-size: .875rem;
     line-height: 1.5rem;
     letter-spacing: .15em;
+    background: linear-gradient(102.57deg, #dc0916, #f41fd6 100%, #f41fd6 0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 
 }
 
+.insightCard .hover-read a{
+    text-decoration: none;
+}
+
 .insightCard .hover-read .bookonimg {
+    background-color: transparent !important;
     margin-right: 10px;
-    background-image: url("https://www.tcs.com/etc.clientlibs/tcs/clientlibs/clientlib-site/resources/images/article-ico-w.svg");
+    background-image: url("https://www.tcs.com/etc.clientlibs/tcs/clientlibs/clientlib-site/resources/images/article-ico-pink.svg"  );
     background-repeat: no-repeat;
     display: inline-block;
     right: -7.1%;
@@ -17,7 +26,6 @@
     height: 16px;
     background-position: center;
     position: relative;
-    top: 5px;
-    background-color: #b60e51;
-    color: #b60e51;
+    top: 4px;
+
 }

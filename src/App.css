@@ -101,13 +101,12 @@
   position: absolute;
   padding-left: 12px;
   margin: 0;
-  bottom: 15px;
-  color: #b60e51;
+  bottom: 5px;
   font-size: 14px;
   display: none;
 }
 
-.insightCard:hover .hover-read {
+.insightCard:hover .hover-read {  
   display: block;
 }
 

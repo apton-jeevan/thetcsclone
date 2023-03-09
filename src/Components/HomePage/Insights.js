@@ -11,7 +11,9 @@ export default function Insights() {
         <img src={item.imgUrl} alt='Insight' />
         <div className="topBtn">{item.topItem}</div>
         <h1><b>{item.title}</b></h1>
-        <div className="hover-read"><span class="bookonimg"></span><span>Read More</span></div>
+        <div className="hover-read">
+          <a href="https://www.tcs.com/what-we-do/industries/energy-resources-utilities/case-study/final-customer-check-framework-tse-improve-outcome"> <p><span className="bookonimg"></span ><b>Read More</b></p> </a>
+        </div>
       </a>
     )
   })
@@ -31,5 +33,5 @@ export default function Insights() {
     </section>
 
   );
-  
+
 }

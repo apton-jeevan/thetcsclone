@@ -10,13 +10,14 @@
 
 .carouselcard .row3 {
         font-family: "Basis Grotesque Pro";
+        background-color: none;
 
 }
 
 .carouselcard .row3 .bookonimg {
-
+        background-color: transparent !important;
         margin-right: 10px;
-        background-image: url("https://www.tcs.com/etc.clientlibs/tcs/clientlibs/clientlib-site/resources/images/article-ico-w.svg");
+        background-image: url("https://www.tcs.com/etc.clientlibs/tcs/clientlibs/clientlib-site/resources/images/article-ico-pink.svg");
         background-repeat: no-repeat;
         display: inline-block;
         right: -7.1%;
@@ -25,11 +26,15 @@
         background-position: center;
         position: relative;
         top: 5px;
-        background-color: #b60e51;
-        color: #b60e51;
 
 }
-.carouselcard .row3 a{
+
+
+
+.carouselcard .row3 a {
         text-decoration: none;
-        color:#b60e51;
+        background: linear-gradient(102.57deg, #dc0916, #f41fd6 100%, #f41fd6 0);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
 }
