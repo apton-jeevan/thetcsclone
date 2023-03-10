@@ -3,7 +3,7 @@ import "./MyAccordianSet.css"
 
 export default function MyAccordianSet() {
     return (
-        <div className='container'>
+        <div className='container bottomPad'>
                 
 
             <div className="myAccordianDescription">
@@ -308,6 +308,8 @@ export default function MyAccordianSet() {
                             </div></div>
                         </div>
                     </div>
+                    <hr style={{visibility:"hidden"}}/>
+                    
                 </div>
             </div>
         </div>

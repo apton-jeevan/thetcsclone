@@ -94,7 +94,7 @@
     }
   }
 
-  .accordion-button::after {
+  .myaccordian .accordion-button::after {
     content: '-';
     font-size: 2.25rem;
     float: right;
@@ -103,7 +103,7 @@
   }
     
 
-  .accordion-button.collapsed::after {
+  .myaccordian .accordion-button.collapsed::after {
     content: '+';
     font-size: 2.25rem;
     float: right;
@@ -111,6 +111,10 @@
     background-image: none;/* for making down arrow none */
   }
   /* for making up arrow none */
-  .accordion-button:not(.collapsed)::after{
+  .myaccordian .accordion-button:not(.collapsed)::after{
     background-image:none; 
+  }
+
+  .bottomPad{
+    padding-bottom: 40px;
   }

@@ -4,7 +4,7 @@ import "./Review.css"
 export default function Review(props) {
     return (
         <div>
-            <div className="container p-4 review">
+            <div className="container p-5 review">
                 <img src="https://www.tcs.com/etc.clientlibs/tcs/clientlibs/clientlib-site/resources/images/quote.svg" alt="Tata" />
                 <h5 className="review-heading col-sm-12 col-lg-8">{props.heading}</h5>
 

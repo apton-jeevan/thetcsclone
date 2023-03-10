@@ -285,3 +285,27 @@ cursor: pointer;
     justify-content: center;
     flex-direction: column !important;
 }
+
+
+.outer-nav-item .accordion-button::after {
+    content: '\25B2';
+    font-size: 0.8rem;
+    float: right;
+    color:white;
+    background-image: none;
+  }
+    
+
+ 
+.outer-nav-item  .accordion-button.collapsed::after {
+    content: '\25BC';
+    font-size:0.8rem;
+    float: right;
+    color:white;
+    background-image: none;/* for making down arrow none */
+  }
+  /* for making up arrow none */
+  
+.outer-nav-item  .accordion-button:not(.collapsed)::after{
+    background-image:none; 
+  }
