@@ -127,14 +127,14 @@
     display: block;
   }
 
-  .insightCardsContainer {
+  .insightCardsContainer,.infocusImgContainer,.inFocusCardsContainer {
     gap: 12px;
   }
 }
 
 /* Tablets and Other Devices */
 @media (max-width: 992px) {
-  .insightCardsContainer {
+  .insightCardsContainer,.inFocusCardsContainer, .infocusImgContainer {
     gap: 12px;
   }
 
@@ -148,7 +148,7 @@
 }
 
 @media (max-width: 1800px) {
-  .insightCardsContainer {
+  .insightCardsContainer,.inFocusCardsContainer,.infocusImgContainer {
     gap: 12px;
   }
 
@@ -171,7 +171,7 @@
   margin-top: 12px;
 }
 
-.beliefCard {
+.inFocusCard {
   display: flex;
   flex-direction: column;
   cursor: pointer;
@@ -198,3 +198,46 @@
   font-size: 16px;
   color: rgb(73, 76, 77);
 }
+
+
+
+.insightCardsContainer::-webkit-scrollbar {
+  display: none;
+}
+
+/* hide the scrollbar in other browsers */
+.insightCardsContainer {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.paragraph-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* hide the scrollbar in other browsers */
+.paragraph-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.inFocusCardsContainer::-webkit-scrollbar {
+  display: none;
+}
+
+/* hide the scrollbar in other browsers */
+.inFocusCardsContainer {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.beliefCardsContainer::-webkit-scrollbar {
+  display: none;
+}
+
+/* hide the scrollbar in other browsers */
+.beliefCardsContainer {
+  -ms-overflow-style: none; /* IE and E1904dge */
+  scrollbar-width: none; /* Firefox */
+}
+
+
+

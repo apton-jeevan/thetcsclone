@@ -6,8 +6,10 @@ export default function InFocus() {
 
   const cardData = data.map(item => {
     return (
-      <a key={item.id} className="beliefCard" href={item.cardUrl} target="_blank">
-        <img src={item.imgUrl} alt='beliefCard' />
+      <a key={item.id} className="inFocusCard" href={item.cardUrl} target="_blank">
+        <div className="infocusImgContainer">
+          <img src={item.imgUrl} alt='beliefCard' />
+        </div>
         <h1>{item.title}</h1>
         <p>{item.date}</p>
       </a>
@@ -16,13 +18,14 @@ export default function InFocus() {
 
   return (
     <div className='container2'>
-      <div className='insightsTitle' style={{paddingTop: "50px"}}>
+      <div className='insightsTitle' style={{ paddingTop: "50px" }}>
         <h1>In focus</h1>
       </div>
 
-      <div className="beliefCardsContainer">
+      <div className="inFocusCardsContainer">
         {cardData}
       </div>
     </div>
   )
 }
+

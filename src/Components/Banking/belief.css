@@ -1,49 +1,66 @@
 /* Belief Section */
-.container2{
-    padding-left:8vw;
-    padding-right:8vw;
-    background-color: #f4f3f9;
-}
-.container2 h1{
-  color:black;
+.container2 {
+  padding-left: 8vw;
+  padding-right: 8vw;
+  background-color: #f4f3f9;
 }
 
-.beliefCardsContainer{
-    display: flex;
-    justify-content: space-between;
-    overflow: auto;
-    height: auto;
-    margin-top: 12px;
-   
+.container2 h1 {
+  color: black;
+}
+
+.inFocusCardsContainer {
+  display: flex;
+  justify-content: space-between;
+  overflow: auto;
+  height: auto;
+  margin-top: 12px;
+  gap:24px;
+
+}
+
+.inFocusCard {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  /* height: 396px; */
+  gap: 12px;
+}
+
+.infocusImgContainer {
+  gap: 12px;
+  height: 280px !important;
+  width: 388px !important ;
+}
+
+.inFocusCard img {
+  width: 100%;
+  height: 100%; 
+
+}
+
+
+.inFocusCard img:hover {
+  transform: scale(1.02);
+}
+
+.inFocusCard h1 {
+
+  color: #000;
+  font-size: 24px;
+}
+
+.inFocusCard p {
+  font-size: 16px;
+  color: rgb(73, 76, 77);
+}
+
+@media (min-width: 1800px) {
+  .inFocusCardsContainer{
+    overflow:hidden;
   }
-  
-  .beliefCard{
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    cursor: pointer;
-    
-    /* height: 396px; */
-    gap: 12px;
-  }
-  
-  .beliefCard img{
-    height: 280px !important;
-    object-fit: cover;
-  
-  }
-  
-  .beliefCard img:hover{
-    transform: scale(1.02); 
-  }
-  
-  .beliefCard h1{
-    
-    color: #000;
-    font-size: 24px;
-  }
-  
-  .beliefCard p{
-    font-size: 16px;
-    color: rgb(73, 76, 77);
-  }
+}
+.container2{
+  overflow:hidden;
+}

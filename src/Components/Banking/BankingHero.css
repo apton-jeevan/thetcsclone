@@ -4,13 +4,13 @@
 }
 @keyframes scale-background {
     0% {
-       transform: scale(1.05); /* start at normal size */
+       transform: scale(1.15); /* start at normal size */
     }
     50% {
-       transform: scale(1); /* scale up to 120% */
+       transform: scale(1.1); /* scale up to 120% */
     }
     100% {
-       transform: scale(1); /* scale back to normal size */
+       transform: scale(1.1); /* scale back to normal size */
     }
  }
 .bankingHeroContent {

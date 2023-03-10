@@ -5,7 +5,10 @@
     padding-bottom: 70px;
 }
 
-
+.paragraph-container::-webkit-scrollbar {
+    display: none !important;
+   
+  }
 
 .scrollsection-innercontainer {
     display: flex;
