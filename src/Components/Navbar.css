@@ -309,3 +309,6 @@ cursor: pointer;
 .outer-nav-item  .accordion-button:not(.collapsed)::after{
     background-image:none; 
   }
+  .nav-item i{
+    margin-left:240px;
+  }

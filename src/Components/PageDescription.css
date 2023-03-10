@@ -1,7 +1,7 @@
 .pageDescription {
     text-align: center;
-    padding-top:65px;
-    padding-bottom:65px;
+    padding-top:100px;
+    
 }
 
 .pageDescription .title {
@@ -26,4 +26,5 @@
     line-height: 2rem;
     letter-spacing: .03125rem;
     color: #000;
+    padding-bottom: 100px;
 }
